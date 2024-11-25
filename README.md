@@ -22,7 +22,7 @@
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
 
-# VORTEX-BOT-V1 Deployment Methods
+## VORTEX-BOT-V1 Deployment Methods
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
