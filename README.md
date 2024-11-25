@@ -40,7 +40,7 @@
 <a href="https://zen-md-bot-session-generator-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
 ### SERVER 2 
-<a href='#' target="_blank"><img alt='COMING SOON IN VORTEX-BOT-V2' src='https://img.shields.io/badge/COMING_SOON_VORTEX-_BOT-_V2-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='#' target="_blank"><img alt='COMING SOON IN VORTEX-BOT-V2' src='https://img.shields.io/badge/COMING_SOON_VORTEX_BOT_V2-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
