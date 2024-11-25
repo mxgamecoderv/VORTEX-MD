@@ -95,6 +95,7 @@ set the Env Vars.
 | antidelete | bot will forward deleted messages if you make it true | 
 <br>
     <h2 align="center"> ⚠️ NOTE  </h2>
+
 ## ZEN-MD-BOT SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
