@@ -37,7 +37,7 @@
 
 ### SERVER 1
  
-<a href="https://zen-md-bot-session-generator-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
+<a href="https://replit.com/@mxgamecoder/VORTEX-BOT-V1"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
 ### SERVER 2 
 <a href='#' target="_blank"><img alt='COMING SOON IN VORTEX-BOT-V2' src='https://img.shields.io/badge/COMING_SOON_VORTEX_BOT_V2-pink?style=for-the-badge&logo=git&logoColor=white'/></a>
