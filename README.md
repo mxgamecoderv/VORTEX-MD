@@ -39,8 +39,7 @@
  
 <a href="https://zen-md-bot-session-generator-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
-### SERVER 2 
-### COMING SOON IN VORTEX-BOT-V2
+### SERVER 2 <a href='#' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
