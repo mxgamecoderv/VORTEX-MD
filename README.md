@@ -77,8 +77,10 @@
     <br>
     <a href='https://railway.com/github/Deeceexxx/Queen_Anita-V2' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
 <br><br>
-set the Env Vars.
+
+# set the Env Vars.
     <br>
+    
 
 
 **Note:** You'll need to set these environment variables 
@@ -96,7 +98,7 @@ set the Env Vars.
 <br>
     <h2 align="center"> ⚠️ NOTE  </h2>
 
-## ZEN-MD-BOT SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+### ZEN-MD-BOT SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
