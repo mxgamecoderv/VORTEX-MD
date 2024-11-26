@@ -42,11 +42,11 @@
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
 
-### DEPLOY ON CLEVER CLOUD
+### DEPLOY ON BOT HOSTING NET 
 
-1. If you don't have an account in Clever Cloud, create one and deploy.
+1. If you don't have an account in Bot hosting net, create one and deploy.
     <br>
-    <a href='https://api.clever-cloud.com/v2/sessions/signup?subscription_source=cta-home-signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    <a href='https://bot-hosting.net/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
 
 ### DEPLOY ON RENDER
 
