@@ -19,7 +19,7 @@
 <h1 align="center"> EXTERNAL PLUGINS </h1>
 
 <p align="center">
-<a href="https://github.com/mxgamecoder/ VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/VORTEX-BOT-V1_PLUGINS-black?style=for-the-badge&logo=Github"></a>
+<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/VORTEX-BOT-V1_PLUGINS-black?style=for-the-badge&logo=Github"></a>
 <p/>
 
 <p align='center'>
