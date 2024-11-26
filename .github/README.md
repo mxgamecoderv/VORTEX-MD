@@ -122,10 +122,11 @@
 
 ## Credits
 
-| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![FG98](https://github.com/FG98F.png?size=100)](https://github.com/FG98F) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
+| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![FG98](https://github.com/GlobalTechInfo.png?size=100)](https://github.com/GlobalTechInfo) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
 | --- | --- | --- |
-| [Guru322](https://github.com/Guru322) | [FG98](https://github.com/FG98F) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+| [Guru322](https://github.com/Guru322) | [FG98](https://github.com/GlobalTechInfo) | [WhiskeySockets](https://github.com/WhiskeySockets) |
 
+<br>
 
 - *VORTEX-BOT-V1 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
