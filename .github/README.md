@@ -74,6 +74,40 @@
     <a href='https://railway.com/github/Deeceexxx/Queen_Anita-V2' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
 <br><br>
 
+#### DEPLOY IN TERMUX/UBUNTU
+ 
+
+apt update && apt upgrade -y
+```
+```
+pkg install proot-distro
+```
+```
+proot-distro install ubuntu
+```
+```
+proot-distro login ubuntu
+```
+```
+apt update && apt upgrade -y
+```
+```
+apt install -y webp git ffmpeg curl imagemagick
+```
+```
+apt -y remove nodejs
+curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+```
+```
+apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+```
+```
+git clone https://github.com/<your gitHub Username>/VORTEX-BOT-V1
+cd VORTEX-BOT-V1
+```
+```
+npm install && npm start
+
 # set the Env Vars.
     I LOVE YOU GUYS 😒😔😂
     
