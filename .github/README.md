@@ -76,7 +76,7 @@
 
 #### DEPLOY IN TERMUX/UBUNTU
  
-
+```
 apt update && apt upgrade -y
 ```
 ```
