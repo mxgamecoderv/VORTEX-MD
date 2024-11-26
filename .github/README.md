@@ -16,7 +16,11 @@
 <a href="https://github.com/mxgamecoder/VORTEX-BOT-V1/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 
+<h1 align="center"> EXTERNAL PLUGINS </h1>
 
+<p align="center">
+<a href="https://github.com/mxgamecoder/ VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/ VORTEX-BOT-V1-EXTERNAL-PLUGIN-black?style=for-the-badge&logo=Github"></a>
+<p/>
 
 <p align='center'>
     </p>
