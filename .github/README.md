@@ -52,7 +52,7 @@ To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
 
 ### SERVER 1
  
-<a href="https://replit.com/@mxgamecoder/VORTEX-BOT-V1"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
+<a href="https://replit.com/@mxgamecoder/VORTEX-BOT-PAIRING"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
