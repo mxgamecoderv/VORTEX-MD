@@ -33,7 +33,7 @@ let handler = async (_0xf3422e, { conn: _0x39ec1b, usedPrefix: _0x9b34e6 }) => {
       externalAdReply: {
         title: _0xa73417(0x87),
         body: botname,
-        sourceUrl: 'https://github.com/mxgamecoder/EXTERNAL-PLUGINS',
+        sourceUrl: 'https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-',
         thumbnailUrl: _0x1cd378,
         mediaType: 0x1,
         renderLargerThumbnail: ![],
@@ -65,7 +65,7 @@ function _0x2d7d() {
     '138900SoPaMU',
     'command',
     '18WIBnHw',
-    '*ULTRA\x20MD\x20EXTERNAL\x20PLUGINS*\x20\x0a\x0ahttps://github.com/mxgamecoder/EXTERNAL-PLUGINS',
+    '*VORTEX-BOT-V1\x20😒\x20EXTERNAL\x20PLUGINS*\x20\x0a\x0ahttps://github.com/mxgamecoder/EXTERNAL-PLUGINS',
     '286610EXPZvD',
     '252588xRdLJE',
     'help',
@@ -73,7 +73,7 @@ function _0x2d7d() {
     '836852ycPSaP',
     '434735OZrKoh',
     'tags',
-    'https://techlogitic.net/wp-content/uploads/2022/08/itachi-pfp-4k.jpg',
+    'https://i.imgur.com/gDvtMaa.jpeg',
   ]
   _0x2d7d = function () {
     return _0x587392
