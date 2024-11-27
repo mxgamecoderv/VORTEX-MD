@@ -22,7 +22,6 @@
 <a href="https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/VORTEX_PLUGINS-black?style=for-the-badge&logo=Github"></a>
 <p/>
 
-<br>
 ----
 
 
