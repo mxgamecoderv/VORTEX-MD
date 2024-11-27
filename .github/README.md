@@ -22,6 +22,18 @@
 <a href="https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/VORTEX_PLUGINS-black?style=for-the-badge&logo=Github"></a>
 <p/>
 
+<br>
+----
+
+
+## 🎬 Watch the Tutorial
+
+To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
+[![ULTRA-MD YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@mxgamecoder?si=fQfOCM3jvDplLU4d)
+
+---
+
+
 <p align='center'>
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
