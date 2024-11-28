@@ -28,7 +28,7 @@
 ## 🎬 Watch the Tutorial
 
 To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
-[![ULTRA-MD YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@mxgamecoder?si=fQfOCM3jvDplLU4d)
+[![VORTEX-BOT-V1 YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@mxgamecoder?si=fQfOCM3jvDplLU4d)
 
 ---
 
