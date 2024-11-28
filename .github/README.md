@@ -173,9 +173,9 @@ npm install && npm start
 
 ## Credits
 
-| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![GlobalTechInfo](https://github.com/GlobalTechInfo.png?size=100)](https://github.com/GlobalTechInfo) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
+| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![Lehani123](https://github.com/GlobalTechInfo.png?size=100)](https://github.com/Lehani123) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
 | --- | --- | --- |
-| [Guru322](https://github.com/Guru322) | [GlobalTechInfo](https://github.com/GlobalTechInfo) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+| [Guru322](https://github.com/Guru322) | [Lehani123](https://github.com/Lehani123) | [WhiskeySockets](https://github.com/WhiskeySockets) |
 
 <br>
 
