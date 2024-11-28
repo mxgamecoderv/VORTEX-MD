@@ -57,11 +57,11 @@ To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
 
-### DEPLOY ON BOT HOSTING NET 
+### DEPLOY ON PANEL 
 
 1. If you don't have an account in Bot hosting net, create one and deploy.
     <br>
-    <a href='https://bot-hosting.net/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=bot-hosting-net&logoColor=white'/></a>
+    <a href='https://bot-hosting.net/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=panel &logoColor=white'/></a>
 
 
 ### DEPLOY ON Koyeb
