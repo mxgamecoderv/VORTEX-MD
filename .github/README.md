@@ -61,7 +61,14 @@ To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
 
 1. If you don't have an account in Bot hosting net, create one and deploy.
     <br>
-    <a href='https://bot-hosting.net/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    <a href='https://bot-hosting.net/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=bot-hosting-net&logoColor=white'/></a>
+
+
+### DEPLOY ON Koyeb
+
+1. If you don't have an account in Bot hosting net, create one and deploy.
+    <br>
+    <a href='https://www.koyeb.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
     
 ### DEPLOY ON REPLIT
 1. Deploy.
