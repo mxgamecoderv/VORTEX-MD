@@ -16,15 +16,15 @@ const handler = async (m, { conn, args }) => {
 
   if (feature === 'delete') {
     delete conn.chess[key]
-    return conn.reply(m.chat, '🏳️ *Chess game stopped.*', m)
+    return conn.reply(m.chat, '🏳️ *Chess game stopped loser.*', m)
   }
 
   if (feature === 'create') {
     if (gameData) {
-      return conn.reply(m.chat, '⚠️ *Game already in progress.*', m)
+      return conn.reply(m.chat, '⚠️ *Game already in progress. Cant you read*', m)
     }
     chessData.gameData = { status: 'waiting', black: null, white: null }
-    return conn.reply(m.chat, '🎮 *Chess game started.*\nWaiting for other players to join.', m)
+    return conn.reply(m.chat, '🎮 *Chess game started.*\nWaiting for other players to join fool.', m)
   }
 
   if (feature === 'join') {
@@ -38,7 +38,7 @@ const handler = async (m, { conn, args }) => {
     if (players.length >= 2) {
       return conn.reply(
         m.chat,
-        '👥 *Players are already enough.*\nThe game will start automatically.',
+        '👥 *Players are already enough.*\nThe game will start automatically, dont let me down you must win.',
         m
       )
     }
@@ -60,7 +60,7 @@ const handler = async (m, { conn, args }) => {
     } else {
       return conn.reply(
         m.chat,
-        '🙋‍♂️ *You have joined the chess game.*\nWaiting for other players to join.',
+        '🙋‍♂️ *You have joined the chess game.*\nWaiting for other players to join, na wa ooooo.',
         m
       )
     }
@@ -68,7 +68,7 @@ const handler = async (m, { conn, args }) => {
 
   if (feature === 'start') {
     if (gameData.status !== 'ready') {
-      return conn.reply(m.chat, '⚠️ *Cannot start the game. Wait for two players to join.*', m)
+      return conn.reply(m.chat, '⚠️ *Cannot start the game. Wait for two players to join idiot.*', m)
     }
     gameData.status = 'playing'
     const senderId = m.sender
@@ -90,7 +90,7 @@ const handler = async (m, { conn, args }) => {
     } else {
       return conn.reply(
         m.chat,
-        '🙋‍♂️ *You have joined the chess game.*\nWaiting for other players to join.',
+        '🙋‍♂️ *You have joined the chess game.*\nWaiting for other players to join idiot.',
         m
       )
     }
@@ -99,12 +99,12 @@ const handler = async (m, { conn, args }) => {
   if (args[0] && args[1]) {
     const senderId = m.sender
     if (!gameData || gameData.status !== 'playing') {
-      return conn.reply(m.chat, '⚠️ *The game has not started yet.*', m)
+      return conn.reply(m.chat, '⚠️ *The game has not started yet, why are you so stupid.*', m)
     }
     if (currentTurn !== senderId) {
       return conn.reply(
         m.chat,
-        `⏳ *It's currently ${chessData.currentTurn === gameData.white ? 'White' : 'Black'}'s turn to move.*`,
+        `⏳ *It's currently ${chessData.currentTurn === gameData.white ? 'White' : 'Black'}'s turn to move guy no get me angry.*`,
         m,
         {
           contextInfo: {
@@ -118,7 +118,7 @@ const handler = async (m, { conn, args }) => {
       delete conn.chess[key]
       return conn.reply(
         m.chat,
-        `⚠️ *Game Checkmate.*\n🏳️ *Chess game stopped.*\n*Winner:* @${m.sender.split('@')[0]}`,
+        `⚠️ *Game Checkmate.*\n🏳️ *Chess game stopped fools.*\n*Winner:* @${m.sender.split('@')[0]}`,
         m,
         {
           contextInfo: {
@@ -131,7 +131,7 @@ const handler = async (m, { conn, args }) => {
       delete conn.chess[key]
       return conn.reply(
         m.chat,
-        `⚠️ *Game Draw.*\n🏳️ *Chess game stopped.*\n*Players:* ${hasJoined.map(playerId => `- @${playerId.split('@')[0]}`).join('\n')}`,
+        `⚠️ *Game Draw.*\n🏳️ *Chess game stopped fools.*\n*Players:* ${hasJoined.map(playerId => `- @${playerId.split('@')[0]}`).join('\n')}`,
         m,
         {
           contextInfo: {
@@ -174,7 +174,7 @@ const handler = async (m, { conn, args }) => {
     return conn.reply(
       m.chat,
       `
-      🌟 *Chess Game Commands:*
+      🌟 *Chess Game Commands And make Sure You Won't Repeat The Same Mistake Again 😒:*
 
 *chess create* - Start a chess game
 *chess join* - Join a waiting chess game
@@ -191,7 +191,7 @@ Type *chess join* to join a waiting chess game.
   }
   return conn.reply(
     m.chat,
-    '❓ Invalid command. Use *"chess help"* to see the available commands.',
+    '❓ Invalid command. Use *"chess help"* to see the available commands fool.',
     m
   )
 }

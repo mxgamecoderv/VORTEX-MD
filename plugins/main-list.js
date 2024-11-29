@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       : m.fromMe
         ? conn.user.jid
         : m.sender
-  if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+  if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database, I won't tell you again bastard`
 
   let pp = './assets/B.jpg'
   let more = String.fromCharCode(8206)
@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   switch (command) {
     case 'listmenu':
     case 'menulist':
-      lkr ='*Get ready for the ride, here are your ticket options:*\n\n' +
+      lkr ='*Get ready for the ride, here are your ticket options, am showing you now if you make any mistakes i will not take it likely with you:*\n\n' +
         '🌅 *' +
         usedPrefix +
         "botmenu* - The Bot's secret control panel.\n\n" +
@@ -86,6 +86,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       lkr = `
 ╭───『 *Bot* 』─❍
 ◈ •quran
+◈ •autoreact
 ◈ •gita
 ◈ •ping
 ◈ •uptime
@@ -110,7 +111,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •listprem
 ◈ •listmenu
 ◈ •mrcs
-◈ © VORTEX-BOT-V1
+◈ © MX-GΔMΞCØDΞR
 ╰─────────❍` // Your bot menu message here
       break
       case 'aimenu':
@@ -126,6 +127,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
  ◈ •google
  ◈ •bro
  ◈ •ai
+ ◈ •fact
+ ◈ •why
  ╰─────────❍` //
  break
       case 'imagen':
@@ -149,7 +152,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       lkr = `
 ╭───『 *Owner* 』─❍
 ◈ •enable
+◈ •intro
 ◈ •banchat
+◈ •autoreact
 ◈ •unbanchat
 ◈ •banuser
 ◈ •unbanuser
@@ -163,6 +168,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •getfile
 ◈ •getplugin
 ◈ •plugins
+◈ •listplugins
 ◈ •install
 ◈ •remove
 ◈ •savecontact
@@ -317,6 +323,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •igstalk
 ◈ •facebook
 ◈ •wallpapers
+◈ •rwall
+◈ •rnekos
 ◈ •swdl
 ◈ •dlstatus
 ╰─────────❍` //
@@ -516,6 +524,7 @@ lkr=`
 ◈ •removebg
 ◈ •smeme
 ◈ •trigger
+◈ •stickers
 ◈ •getsticker
 ◈ •tgsticker
 ◈ •emojimix
@@ -529,7 +538,6 @@ lkr=`
 ◈ •attp
 ◈ •attp2
 ◈ •attp3
-◈ Add remove bg key First
 ╰─────────❍` //
       break
     case 'toolmenu':
@@ -717,7 +725,7 @@ lkr=`
   ╰─────────❍` //
       break
     default:
-      lkr = `Invalid command. Type ${usedPrefix}list to see available options.`
+      lkr = `Invalid command. Type ${usedPrefix}list to see available options 😡 did i not tell you to read the instructions well.`
   }
 
   conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })

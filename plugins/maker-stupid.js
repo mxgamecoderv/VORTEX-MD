@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
     global.API('https://some-random-api.com', '/canvas/misc/its-so-stupid', {
       avatar: await conn
         .profilePictureUrl(who, 'image')
-        .catch(_ => 'https://i.imgur.com/yIrwhLt.jpeg'),
+        .catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
       dog: text || 'im+stupid',
     }),
     'error.png',

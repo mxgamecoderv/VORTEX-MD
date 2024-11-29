@@ -2,23 +2,23 @@ let handler = async m =>
   m.reply(
     `
 
-≡ © VORTEX-BOT-V1 Groups
+≡ © MX-GΔMΞCØDΞR Groups
 
 ─────────────
 ▢ Join WhatsApp Channel For Updates
 https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W
 
 ▢ Group 2
-https://t.me/FREEAIRDROP
+https://t.me/mxgamecoder
 
 ─────────────
 ≡ Disabled links? Chat Directly! 
 
 ▢ Group WhatsApp 
- https://VORTEX-BOT-V1
+ https://chat.whatsapp.com/G6ofX7mzrDy8m92NMb4FJm
 ─────────────
 ▢ *Owner instagram*
- https://instagram.com/mxgamecoder.com
+ https://instagram.com/mxgamecoder
 
 ▢ *YouTube*
 • https://www.youtube.com/@mxgamecoder

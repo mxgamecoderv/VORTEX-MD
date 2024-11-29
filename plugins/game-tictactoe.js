@@ -65,7 +65,7 @@ ${arr.slice(6).join('')}
 
     conn.reply(
       m.chat,
-      `⏳ *expecting partner*\nType the following command to accept
+      `⏳ *expecting your useless partner*\nType the following command to accept
 ▢ *${usedPrefix + command} ${text}*
 
 🎁 Reward:  *4999 XP*`,

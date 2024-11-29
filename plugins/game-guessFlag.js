@@ -7,7 +7,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   if (id in conn.tebakbendera) {
     conn.reply(
       m.chat,
-      'There are still unanswered questions in this chat',
+      'There are still unanswered questions in this chat guys',
       conn.tebakbendera[id][0]
     )
     throw false
@@ -29,7 +29,7 @@ Reward: ${poin} XP
     poin,
     setTimeout(() => {
       if (conn.tebakbendera[id])
-        conn.reply(m.chat, `Time's up!\nThe answer is *${json.name}*`, conn.tebakbendera[id][0])
+        conn.reply(m.chat, `Time's up loser!\nThe answer is *${json.name}*`, conn.tebakbendera[id][0])
       delete conn.tebakbendera[id]
     }, timeout),
   ]

@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, isOwner }) => {
 VERSION:3.0
 N:;MX-GΔMΞCØDΞR;;;
 FN:MX-GΔMΞCØDΞR
-ORG:MX-GΔMΞCØDΞR
+ORG:GlobalTechInfo
 TITLE:Owner
 item1.TEL;waid=2349021506036:2349021506036
 item1.X-ABLabel:Owner

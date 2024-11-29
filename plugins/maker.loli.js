@@ -11,10 +11,10 @@ let handler = async (m, { conn }) => {
     global.API('https://some-random-api.com', '/canvas/misc/lolice', {
       avatar: await conn
         .profilePictureUrl(who, 'image')
-        .catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
+        .catch(_ => 'https://i.imgur.com/fm38vAD.jpeg'),
     }),
     'error.png',
-    '*🚔🚨 VORTEX-BOT-V1 like you only belong in jail 🚨🚔*',
+    '*🚔🚨 𝐋𝐎𝐋𝐈𝐂𝐎𝐍𝐒 like you only belong in jail 🚨🚔*',
     m
   )
 }

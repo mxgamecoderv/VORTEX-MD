@@ -37,11 +37,11 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
+⚠️ *_Rise up bastard ${name}, ${greeting}! We're going on an adventure!_* ⚠️
 
 📋 *_Quote of the day: ${quote}_* 📋
 
-『 *VORTEX-BOT-V1*』
+『 *VORTEX-MD*』
 
 ☆┏━『 *User Info* 』 
 ☆┃ 🪪  *Name:* ${name}  
@@ -61,6 +61,7 @@ let str = `
 ◈┏━⟪ *MENU* ⟫━━⦿
 ◈┃• groupmenu
 ◈┃• animemenu
+◈┃• autoreact
 ◈┃• infoanime
 ◈┃• makermenu
 ◈┃• ownermenu
@@ -68,6 +69,7 @@ let str = `
 ◈┃• toolsmenu
 ◈┃• gamesmenu
 ◈┃• logomenu
+◈┃• listplugin
 ◈┃• economy
 ◈┃• reactions
 ◈┃• funmenu
@@ -89,7 +91,7 @@ let str = `
 ◈┃• fancy2
 ◈┗━♪♪━★━☆━⦿
 
-© VORTEX-BOT-V1
+© MX-GΔMΞCØDΞR
 
 > 💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book!_* 💡
 `

@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     await conn
       .updateProfilePicture(m.chat, img)
       .then(_ => m.reply('IMAGE SUCCESSFULLY SET AS PP._*'))
-  } else throw '*REPLY TO AN IMAGE.*'
+  } else throw '*HOW MANY TIMES WILL I TELL YOU FOOL TO REPLY TO AN IMAGE.*'
 }
 handler.command = /^setpp(group|grup|gc)?$/i
 handler.group = true

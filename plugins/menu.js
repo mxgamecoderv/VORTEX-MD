@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *VORTEX-BOT-V1* 』  
+      『 *VORTEX-MD* 』  
       © 2024 *MX-GΔMΞCØDΞR*`;
 
     let msg = generateWAMessageFromContent(m.chat, {
@@ -36,7 +36,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                         text: str
                     }),
                     footer: proto.Message.InteractiveMessage.Footer.create({
-                        text: "Use The Below Buttons"
+                        text: "Use The Below Buttons idiot"
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
                         ...(await prepareWAMessageMedia({ image: { url: './assets/Ultra.jpg' } }, { upload: conn.waUploadToServer })),
@@ -51,8 +51,8 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 "buttonParamsJson": JSON.stringify({
                                     "title": "TAP TO OPEN",
                                     "sections": [{
-                                        "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "VORTEX",
+                                        "title": "HERE IS BUTTONS MENU AND MAKE SURE YOU DON'T FORGET THEN FOOL SO THAT YOU WON'T DISTURB ME  🥱",
+                                        "highlight_label": "𝚅𝙾𝚁𝚃𝙴𝚇",
                                         "rows": [
                                             { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
                                             { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
@@ -86,14 +86,14 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "OWNER 🌟",
-                                    "url": "https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W"
+                                    "url": "https://wa.me/9021506036"
                                 })
                             },
                             {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "SCRIPT 💕",
-                                    "url": "https://github.com/mxgamecoder/VORTEX-BOT-V1"
+                                    "url": "https://github.com/mxgamecoder/VORTEX-MD"
                                 })
                             }
                         ],

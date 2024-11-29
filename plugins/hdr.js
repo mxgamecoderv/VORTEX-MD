@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix, command, quoted }) => {
 
       await conn.sendMessage(m.chat, {
         image: enhancedImage,
-        caption: `*𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © MX-GΔMΞCØDΞR*\nEnjoy the enhanced image!`
+        caption: `*𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © 𝚅𝙾𝚁𝚃𝙴𝚇-𝘔𝘋*\nEnjoy the enhanced image!`
       }, { quoted: m });
     } catch (error) {
       console.error('❌ Error enhancing image:', error);

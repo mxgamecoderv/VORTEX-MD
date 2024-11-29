@@ -1,5 +1,5 @@
 let handler = async function (m, { conn, text, usedPrefix }) {
-  let m2 = `≡ Use these commands without the prefix: *${usedPrefix}*
+  let m2 = `≡ Use these commands without the prefix idiot, I repeat use the command without prefix loser: *${usedPrefix}*
 ┌─⊷ *AUDIOS* 
 ▢ Bot
 ▢ Good morning
@@ -12,7 +12,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
   let pp = './assets/A.jpg';
 
   // Send a button message
-  await conn.sendButton(m.chat, m2, 'VORTEX-BOT-V1', pp, [
+  await conn.sendButton(m.chat, m2, 'VORTEX-MD', pp, [
     ['⏍ Info', `${usedPrefix}botinfo`],
     ['⌬ Group', `${usedPrefix}grp`]
   ], m, { quoted: m });

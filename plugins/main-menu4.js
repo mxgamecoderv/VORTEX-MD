@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0]
   let str = `
-🚀 *_Take heart ${name}, ${greeting}! We're going on an adventure!_* 🚀
+🥱 *_Wake up ${name}, ${greeting}! We're going on an adventure!_* 😩
 
 📜 *_Quote of the day: ${quote}_* 📜
 
@@ -71,7 +71,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃ 📚  *Total Users:* ${totaluser} 
 ┗━━━━━━━━━━━━━┛
 
-💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book!_* 💡
+💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book and am sorry for being rude, am created by a useless developer!_* 💡
 `
 
   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)

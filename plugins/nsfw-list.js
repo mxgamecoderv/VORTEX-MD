@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix }) => {
   if (!global.db.data.chats[m.chat].nsfw)
-    throw `🚫 group doesnt supprt nsfw \n\n enable it by \n*${usedPrefix}enable* nsfw`
+    throw `🚫 group doesnt supprt nsfw bro\n\n enable it by \n*${usedPrefix}enable* nsfw but ask the admin permission first`
   let user = global.db.data.users[m.sender].age
   if (user < 17) throw m.reply(`❎ uneed to be atleast 18 years`)
 
@@ -89,7 +89,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   
   ${nsfwCommands.map(command => `${usedPrefix}${command}`).join('\n')}
   
-  Note: These commands are only for those who are 18+.
+  Note: These commands are only for those who are 18+, I rolf you oooo.
   `
 
   console.log('Sending message...')
