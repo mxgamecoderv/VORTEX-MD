@@ -8,7 +8,7 @@ import path, { join } from 'path'
 import { platform } from 'process'
 import { fileURLToPath, pathToFileURL } from 'url'
 import * as ws from 'ws'
-import processTxtAndSaveCredentials from './lib/makesession.js'
+import SaveCreds from './lib/makesession.js'
 import clearTmp from './lib/tempclear.js'
 global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
   return rmPrefix
@@ -45,10 +45,10 @@ const {
   fetchLatestWaWebVersion,
   makeCacheableSignalKeyStore,
   makeInMemoryStore,
+  Browsers,
   proto,
   delay,
   jidNormalizedUser,
-  PHONENUMBER_MCC,
 } = await (
   await import('@whiskeysockets/baileys')
 ).default
@@ -66,8 +66,8 @@ async function main() {
   }
 
   try {
-    await processTxtAndSaveCredentials(txt)
-    console.log('processTxtAndSaveCredentials completed.')
+    await SaveCreds(txt)
+    console.log('Check Completed.')
   } catch (error) {
     console.error('Error:', error)
   }
@@ -184,7 +184,7 @@ const connectionOptions = {
     level: 'fatal',
   }),
   printQRInTerminal: !pairingCode,
-  browser: ["Ubuntu", "Chrome", "20.0.04"],
+  browser: Browsers.macOS("Safari"),
   auth: {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(
@@ -558,7 +558,7 @@ async function connectionUpdate(update) {
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `*VORTEX-BOT-V1 Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY SUBSCRIBE*
+    const msg = `*VORTEX-MD Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY SUBSCRIBE*
 *youtube.com/@mxgamecoder*`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
@@ -604,18 +604,18 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = ` Hello @user!\n\n🎉 *WELCOME* to the group @group!\n\n📜 Please read the *DESCRIPTION* @desc.`
-  conn.bye = `👋GOODBYE @user \n\nSee you later!`
-  conn.spromote = `*@user* has been promoted to an admin, if they born you guys welll dont respect them`
-  conn.sdemote = `*@user* is no longer an admin 😂.`
-  conn.sDesc = `The group description has been updated to this:\n@desc`
-  conn.sSubject = `The group title has been changed by the useless admin to:\n@group`
-  conn.sIcon = `The group icon has been updated by the admin 😡`
-  conn.sRevoke = ` The group link has been changed 😡 to:\n@revoke`
-  conn.sAnnounceOn = `The group is now *CLOSED*!\nOnly useless admins can send messages 🤣.`
-  conn.sAnnounceOff = `The group is now *OPEN*!\nAll participants can send messages 🥱.`
-  conn.sRestrictOn = `Edit Group Info has been restricted to admins only!`
-  conn.sRestrictOff = `Edit Group Info is now available to all participants!`
+  conn.welcome = ` Hello @user!\n\n🎉 *WELCOME* to the group @group!\n\n📜 Please read the *DESCRIPTION* to avoid problem @desc.`
+  conn.bye = `👋GOODBYE @user \n\nSee you guys later!`
+  conn.spromote = `*@user* has been promoted to an admin because he is a chosen fool!`
+  conn.sdemote = `*@user* is no longer an admin because he has not sense.`
+  conn.sDesc = `The group description has been updated to:\n@desc`
+  conn.sSubject = `The group title has been changed to:\n@group`
+  conn.sIcon = `The group icon has been updated idiots!`
+  conn.sRevoke = ` The group link has been changed to:\n@revoke`
+  conn.sAnnounceOn = `The group is now *CLOSED*!\nOnly admins can send messages because you guys does not have sense.`
+  conn.sAnnounceOff = `The group is now *OPEN*!\nAll participants can send messages fools.`
+  conn.sRestrictOn = `Edit Group Info has been restricted to admins only idiots!`
+  conn.sRestrictOff = `Edit Group Info is now available to all participants guys!`
 
   conn.handler = handler.handler.bind(global.conn)
   conn.pollUpdate = handler.pollUpdate.bind(global.conn)

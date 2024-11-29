@@ -10,7 +10,7 @@ const defaultOwner = '2349021506036';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS = '2349021506036';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2349021506036';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,9 +19,9 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'VORTEX-BOT-V1';
-global.pairingNumber = process.env.BOT_NUMBER = 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID = 'session id';  // put your session id here
+global.botname = process.env.BOTNAME || 'VORTEX-MD';
+global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || '';  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -73,12 +73,12 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'VORTEX-BOT'
+global.packname = 'VORTEX-MD'
 global.author = 'MX-GΔMΞCØDΞR'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/mxgamecoder'
 global.dygp = 'https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W'
-global.fgsc = 'https://github.com/mxgamecoder/VORTEX-BOT-V1'
+global.fgsc = 'https://github.com/mxgamecoder/VORTEX-MD'
 global.fgyt = 'https://youtube.com/@mxgamecoder'
 global.fgpyp = 'https://youtube.com/@mxgamecoder'
 global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
@@ -86,7 +86,7 @@ global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
-global.dmoji = '🥱'
+global.dmoji = '🤭'
 global.done = '✅'
 global.error = '❌'
 global.xmoji = '🤩'

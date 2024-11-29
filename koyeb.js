@@ -5,11 +5,11 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/mxgamecoder/VORTEX-BOT-V1
+RUN git clone https://github.com/mxgamecoder/VORTEX-MD
 
-WORKDIR /root/VORTEX-BOT-V1
+WORKDIR /root/vortex-md
 
-COPY ./root/VORTEX-BOT-V1
+COPY ./root/vortex-md
 
 RUN npm install
 

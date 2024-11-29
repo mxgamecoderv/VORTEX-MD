@@ -386,13 +386,13 @@ export async function handler(chatUpdate) {
           plugin.credit &&
           global.db.data.users[m.sender].credit < plugin.credit * 1
         ) {
-          this.reply(m.chat, `You don't have enough gold 🪙`, m)
+          this.reply(m.chat, `🟥 You don't have enough gold`, m)
           continue // Gold finished
         }
         if (plugin.level > _user.level) {
           this.reply(
             m.chat,
-            `Level required ${plugin.level} to use this command 🥱. \nYour level ${_user.level}`,
+            `🟥 Level required ${plugin.level} to use this command. \nYour level ${_user.level}`,
             m
           )
           continue // If the level has not been reached
@@ -521,13 +521,13 @@ export async function participantsUpdate({ id, participants, action }) {
   if (global.db.data == null) await loadDatabase()
   const chat = global.db.data.chats[id] || {}
   const emoji = {
-    promote: '👤😒',
-    demote: '👤😡',
-    welcome: '😂',
-    bye: '😢',
+    promote: '👤👑',
+    demote: '👤🙅‍♂️',
+    welcome: '👋',
+    bye: '👋',
     bug: '🐛',
     mail: '📧',
-    owner: '😡',
+    owner: '😎',
   }
 
   switch (action) {
@@ -541,8 +541,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg' // Assign default image URL
-            ppgp = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg' // Assign default image URL
+            pp = 'https://i.imgur.com/2U2K9YA.mp4' // Assign default image URL
+            ppgp = 'https://imgur.com/ad5fHIA' // Assign default image URL
           } finally {
             let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
               .replace('@group', await this.getName(id))
@@ -571,7 +571,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'Global Bot',
+                    title: 'VORTEX-MD',
                     body: 'Welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
                     sourceUrl: 'https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W',
@@ -598,8 +598,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg' // Assign default image URL
-            ppgp = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg' // Assign default image URL
+            pp = 'https://imgur.com/ad5fHIA' // Assign default image URL
+            ppgp = 'https://imgur.com/ad5fHIA' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
               '@user',
@@ -607,7 +607,7 @@ export async function participantsUpdate({ id, participants, action }) {
             )
 
             let nthMember = groupMetadata.participants.length
-            let secondText = `Goodbye, our ${nthMember}th group member 😂`
+            let secondText = `Goodbye, our ${nthMember}th group member`
 
             let leaveApiUrl = `https://welcome.guruapi.tech/leave-image?username=${encodeURIComponent(
               await this.getName(user)
@@ -706,21 +706,21 @@ export async function groupsUpdate(groupsUpdate) {
         chats.sDesc ||
         this.sDesc ||
         conn.sDesc ||
-        `*${emoji.desc} Description has been changed to*\n@desc`
+        `*${emoji.desc} Description has been changed to*\n@desc 🥺`
       ).replace('@desc', groupUpdate.desc)
     } else if (groupUpdate.subject) {
       text = (
         chats.sSubject ||
         this.sSubject ||
         conn.sSubject ||
-        `*${emoji.subject} Subject has been changed to*\n@subject`
+        `*${emoji.subject} Subject has been changed to*\n@subject by the fools`
       ).replace('@subject', groupUpdate.subject)
     } else if (groupUpdate.icon) {
       text = (
         chats.sIcon ||
         this.sIcon ||
         conn.sIcon ||
-        `*${emoji.icon} Icon has been changed*`
+        `*${emoji.icon} Icon has been changed by the useless admin*`
       ).replace('@icon', groupUpdate.icon)
     } else if (groupUpdate.revoke) {
       text = (
@@ -734,19 +734,19 @@ export async function groupsUpdate(groupsUpdate) {
         chats.sAnnounceOn ||
         this.sAnnounceOn ||
         conn.sAnnounceOn ||
-        `*${emoji.announceOn} Group is now closed!*`
+        `*${emoji.announceOn} Group is now closed fools!*`
     } else if (groupUpdate.announce === false) {
       text =
         chats.sAnnounceOff ||
         this.sAnnounceOff ||
         conn.sAnnounceOff ||
-        `*${emoji.announceOff} Group is now open!*`
+        `*${emoji.announceOff} Group is now open 😏!*`
     } else if (groupUpdate.restrict === true) {
       text =
         chats.sRestrictOn ||
         this.sRestrictOn ||
         conn.sRestrictOn ||
-        `*${emoji.restrictOn} Group is now restricted to participants only!*`
+        `*${emoji.restrictOn} Group is now restricted to participants only 🤣!*`
     } else if (groupUpdate.restrict === false) {
       text =
         chats.sRestrictOff ||
@@ -780,8 +780,8 @@ export async function deleteUpdate(message) {
     await this.reply(
       conn.user.id,
       `
-            ≡ deleted a message ⚠️ 
-            ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
+            ≡ deleted a message 
+            ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 ☠️
             ▢ *Number :* @${participant.split`@`[0]} 
             └─────────────
             `.trim(),
@@ -874,25 +874,25 @@ global.dfail = (type, m, conn) => {
 
   const msg = {
     owner: `*${emoji.owner} Owner's Query*\n
-    ${userTag} 😡 Don't touch me, this command can only be used by the *Bot Owner 😡*!`,
+    ${userTag} Idiot don't use my command the bot is not for you thief, this command can only be used by the *Bot Owner*!`,
     moderator: `*${emoji.moderator} Moderator's Query*\n
-    ${userTag} 😡 Don't touch me, this command can only be used by *Moderators 😡*!`,
+    ${userTag} This command can only be used by *Moderators fool*!`,
     premium: `*${emoji.premium} Premium Query*\n
-    ${userTag} 😂 This command is only for *Premium Members 😂*!`,
+    ${userTag} This command is only for *Premium Members idiot*!`,
     group: `*${emoji.group} Group Query*\n
-    ${userTag} This command can only be used in *Group Chats 🥱*!`,
+    ${userTag} This command can only be used in *Group Chats*!`,
     private: `*${emoji.private} Private Query*\n
-    ${userTag} This command can only be used in *Private Chats 🙆*!`,
+    ${userTag} This command can only be used in *Private Chats 😏*!`,
     admin: `*${emoji.admin} Admin's Query*\n
-    ${userTag} This command is only for *Group Admins 😒*!`,
+    ${userTag} This command is only for *Group Admins, hey stop it 🛑*!`,
     botAdmin: `*${emoji.botAdmin} Bot Admin's Query*\n
-    ${userTag} Make the bot an *Admin* to use this command 🥺🥺!`,
+    ${userTag} Make the bot an *Admin* to use this command, but the creator is a fool he does not know how to make the bot admin 🤣!`,
     unreg: `*${emoji.unreg} Registration Query*\n
-    ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*!`,
+    ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*! and it not for small children, if your mom catch you am not responsible for it`,
     nsfw: `*${emoji.nsfw} NSFW Query*\n
-    ${userTag} NSFW is not active. Please contact the Group admin to enable this feature!`,
+    ${userTag} NSFW is not active. Please contact the Group admin to enable this feature, why are you stupid?!`,
     restrict: `*${emoji.restrict} Inactive Feature Query*\n
-    ${userTag} This feature is *disabled*!`,
+    ${userTag} This feature is *disabled, you are incompetent.*!`,
   }[type]
   if (msg) return m.reply(msg)
 }

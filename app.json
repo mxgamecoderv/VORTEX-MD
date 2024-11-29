@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp Ai"
   ],
-  "repository": "https://github.com/mxgamecoder/VORTEX-BOT-V1",
+  "repository": "https://github.com/mxgamecoder/VORTEX-MD",
   "stack": "container",
   "env": {
     "OWNERS": {
@@ -15,7 +15,7 @@
     "BOTNAME": {
       "description": "Give your BOT a name",
       "required": true,
-      "value": "VORTEX-BOT-V1"
+      "value": "VORTEX-MD"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
@@ -30,7 +30,7 @@
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",

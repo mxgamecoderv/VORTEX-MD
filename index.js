@@ -7,7 +7,7 @@ import path from 'path'
 import { fileURLToPath } from 'url';
 
 figlet(
-  'VORTEX-BOT-V1',
+  'VORTEX MD',
   {
     font: 'Ghost',
     horizontalLayout: 'default',
