@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import googleIt from 'google-it'
 
 const handler = async (m, { conn, command, text, args, usedPrefix }) => {
-  if (!text) throw `give a text to search Example: *${usedPrefix + command}* VORTEX-BOT-V1`
+  if (!text) throw `give a text to search Example: *${usedPrefix + command}* VORTEX-MD`
   conn.gogleit = conn.gogleit ? conn.gogleit : {}
   await conn.reply(m.chat, wait, m)
   const result = await googleresult(text)
