@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, args, command }) => {
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text;
     } else {
-        throw "Please provide text or reply to a message with the text you want to make a quote!";
+        throw "Please provide text or reply to a message with the text you want to make a quote ☠️!";
     }
 
     try {
@@ -15,7 +15,7 @@ let handler = async (m, { conn, usedPrefix, args, command }) => {
         let quote = await createQuote(m.name, text);
 
         // Define caption for the generated quote image
-        let maker = "*Your quote has been created!*"; 
+        let maker = "*Your quote has been created ⚠️!*"; 
 
         // Send the generated quote image with a caption
         await conn.sendFile(m.chat, quote, '', maker + "\n*Requested by:* " + m.name + "\n*Quote:* " + text, m);

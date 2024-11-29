@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     throw 'The user Mentioned is already allowed to use the bot in DM '
   global.allowed.push(`${who.split`@`[0]}`)
 
-  conn.reply(m.chat, ` @${who.split`@`[0]} got the ultimate pass  to use the bot in DM`, m, {
+  conn.reply(m.chat, ` @${who.split`@`[0]} got the ultimate pass  to use the bot in DM please dont misuse the chance loser`, m, {
     mentions: [who],
   })
 }

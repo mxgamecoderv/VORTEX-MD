@@ -33,7 +33,7 @@ let handler = async (_0xf3422e, { conn: _0x39ec1b, usedPrefix: _0x9b34e6 }) => {
       externalAdReply: {
         title: _0xa73417(0x87),
         body: botname,
-        sourceUrl: 'https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-',
+        sourceUrl: 'https://github.com/mxgamecoder/EXTERNAL-PLUGINS',
         thumbnailUrl: _0x1cd378,
         mediaType: 0x1,
         renderLargerThumbnail: ![],
@@ -65,7 +65,7 @@ function _0x2d7d() {
     '138900SoPaMU',
     'command',
     '18WIBnHw',
-    '*VORTEX\x20BOT\x20EXTERNAL\x20PLUGINS*\x20\x0a\x0ahttps://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-',
+    '*VORTEX\x20MD\x20EXTERNAL\x20PLUGINS*\x20\x0a\x0ahttps://github.com/mxgamecoder/EXTERNAL-PLUGINS',
     '286610EXPZvD',
     '252588xRdLJE',
     'help',
@@ -73,7 +73,7 @@ function _0x2d7d() {
     '836852ycPSaP',
     '434735OZrKoh',
     'tags',
-    'https://i.imgur.com/yIrwhLt.jpeg',
+    'https://i.imgur.com/fm38vAD.jpeg',
   ]
   _0x2d7d = function () {
     return _0x587392

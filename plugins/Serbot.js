@@ -8,14 +8,14 @@ global.conns.forEach((conn) => {
 if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
 uniqueUsers.set(conn.user.jid.replace(/[^0-9]/g, ''), conn.user)}})
 
-const message = Array.from(uniqueUsers.values()).map((user, index) => `┌  ✩  *${index + 1}* : @${user.jid.replace(/[^0-9]/g, '')}\n│  ✩  *Link* : http://wa.me/${user.jid.replace(/[^0-9]/g, '')}\n└  ✩  *Name* : ${user.name || 'VORTEX-BOT-V1'}\n`
+const message = Array.from(uniqueUsers.values()).map((user, index) => `┌  ✩  *${index + 1}* : @${user.jid.replace(/[^0-9]/g, '')}\n│  ✩  *Link* : http://wa.me/${user.jid.replace(/[^0-9]/g, '')}\n└  ✩  *Name* : ${user.name || 'VORTEX-MD-V1'}\n`
   ).join('\n')
   
 const replyMessage = message.length === 0 ? "" : message
 const totalUsers = uniqueUsers.size;
 const responseMessage = `${` –  *S E R B O T  -  S U B B O T S*\n\n${replyMessage.trim()}`.trim()}`
   
-let img = await (await fetch(`https://i.imgur.com/yIrwhLt.jpeg`)).buffer()
+let img = await (await fetch(`https://i.imgur.com/fm38vAD.jpeg`)).buffer()
 
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }

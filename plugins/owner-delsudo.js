@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
   const ownerId = who.split('@')[0]
   const ownerIndex = global.owner.findIndex(owner => owner[0] === ownerId)
 
-  if (ownerIndex === -1) throw 'This person is not an owner!'
+  if (ownerIndex === -1) throw 'This person is not an owner dont you have sense!'
 
   const removedOwner = global.owner.splice(ownerIndex, 1)[0]
   const caption = `@${removedOwner[0]} has been removed as an Owner.`

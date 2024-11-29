@@ -10,9 +10,9 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!Reg.test(text))
     throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age*\n📌Exemple : *${usedPrefix + command}* ${name2}.16`
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) throw '✳️ The name cannot be empty'
-  if (!age) throw '✳️ age cannot be empty'
-  if (name.length >= 30) throw '✳️The name is too long'
+  if (!name) throw '✳️ The name cannot be empty loser'
+  if (!age) throw '✳️ age cannot be empty idiot'
+  if (name.length >= 30) throw '✳️The name is too long mumu'
   age = parseInt(age)
   if (age > 100) throw '👴🏻 Wow grandpa wants to play bot'
   if (age < 5) throw '🚼  there is a grandpa baby jsjsj '

@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     `
 ✅ PREMIUM
 
-@${who.split`@`[0]} now you become a premium user
+@${who.split`@`[0]} now you become a premium user liar
 ┌───────────
 ▢ *Number:* ${user.name}
 └───────────
