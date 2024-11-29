@@ -1,6 +1,6 @@
-# **VORTEX-BOT-V1**
+# **VORTEX-MD**
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-BOT-V1+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;Chatgpt+Assistant)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-MD+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;Chatgpt+Assistant)](https://git.io/typing-svg)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <p align="center">
@@ -8,18 +8,18 @@
 <p align="center"><img src="https://profile-counter.glitch.me/{mxgamecoder}/count.svg" alt="mxgamecoder:: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/mxgamecoder/followers"><img title="Followers" src="https://img.shields.io/github/followers/mxgamecoder?color=red&style=flat-square"></a>
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mxgamecoder/VORTEX-BOT-V1?color=blue&style=flat-square"></a>
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mxgamecoder/VORTEX-BOT-V1?color=red&style=flat-square"></a>
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mxgamecoder/VORTEX-BOT-V1?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1"><img title="Size" src="https://img.shields.io/github/repo-size/mxgamecoder/VORTEX-BOT-V1?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmxgamecoder%2FVORTEX-BOT-V1&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/mxgamecoder/VORTEX-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mxgamecoder/VORTEX-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/mxgamecoder/VORTEX-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mxgamecoder/VORTEX-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/mxgamecoder/VORTEX-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mxgamecoder/VORTEX-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/mxgamecoder/VORTEX-MD"><img title="Size" src="https://img.shields.io/github/repo-size/mxgamecoder/VORTEX-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmxgamecoder%2FVORTEX-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/mxgamecoder/mxgamecoder/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 
 <h1 align="center"> EXTERNAL PLUGINS </h1>
 
 <p align="center">
-<a href="https://github.com/mxgamecoder/VORTEX-BOT-V1-EXTERNAL-PLUGIN-"><img title="Author" src="https://img.shields.io/badge/VORTEX_PLUGINS-black?style=for-the-badge&logo=Github"></a>
+<a href="https://github.com/mxgamecoder/EXTERNAL-PLUGINS"><img title="Author" src="https://img.shields.io/badge/VORTEX_PLUGINS-black?style=for-the-badge&logo=Github"></a>
 <p/>
 
 ----
@@ -27,7 +27,7 @@
 
 ## 🎬 Watch the Tutorial
 
-To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
+To set up the VORTEX-MD quickly, follow our detailed tutorial on YouTube:
 [![VORTEX-BOT-V1 YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtube.com/@mxgamecoder?si=fQfOCM3jvDplLU4d)
 
 ---
@@ -37,7 +37,7 @@ To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
 
-## VORTEX-BOT-V1 Deployment Methods
+## VORTEX-MD Deployment Methods
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
@@ -46,13 +46,18 @@ To set up the VORTEX-BOT-V1 quickly, follow our detailed tutorial on YouTube:
 
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/mxgamecoder/VORTEX-BOT-V1/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/mxgamecoder/VORTEX-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. GET SESSION ID HERE
 
 ### SERVER 1
  
 <a href="https://replit.com/@mxgamecoder/VORTEX-BOT-PAIRING"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
+
+
+### SERVER 2
+ 
+<a href="https://replit.com/@mxgamecoder/VORTEX-MD-PAIR-CODE"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
@@ -103,8 +108,8 @@ curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nod
 apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
 ```
 ```
-git clone https://github.com/<your gitHub Username>/VORTEX-BOT-V1
-cd VORTEX-BOT-V1
+git clone https://github.com/<your gitHub Username>/VORTEX-MD
+cd VORTEX-MD
 ```
 ```
 npm install && npm start
@@ -131,7 +136,7 @@ npm install && npm start
 <br>
     <h2 align="center"> ⚠️ NOTE  </h2>
 
-#### ZEN-MD-BOT SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+#### VORTEX-MD SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
@@ -145,15 +150,15 @@ npm install && npm start
 
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-BOT-V1+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;ChatGPT+Assistant)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-MD+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;ChatGPT+Assistant)](https://git.io/typing-svg)
 <br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a> 
 ##### PLEASE SUPPORT ME 🥺
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-* [🧑‍💻 Follow Me VORTEX-BOT-V1 Whatsapp group🧑‍💻](https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT)
+* [🧑‍💻 Follow Me VORTEX-MD Whatsapp group🧑‍💻](https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT)
 
-* [🧑‍💻 Join VORTEX-BOT-V1 Telegram Group 🧑‍💻](https://t.me/LAKEA1DROP)
+* [🧑‍💻 Join VORTEX-MD Telegram Group 🧑‍💻](https://t.me/LAKEA1DROP)
 
 * [✅ Join Public Group ⚡](https://chat.whatsapp.com/GswNqGj4cLp8v6YPeZzvf2)
 
@@ -169,9 +174,9 @@ npm install && npm start
 
 <br>
 
-- *VORTEX-BOT-V1 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *VORTEX-MD is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
-- *Use VORTEX-BOT-V1 at your own risk by keeping this warning in mind.*
+- *Use VORTEX-MD at your own risk by keeping this warning in mind.*
   
   #### ```MX-GΔMΞCØDΞR VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/mxgamecoder/count.svg)
