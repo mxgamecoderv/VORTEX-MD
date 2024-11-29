@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender);
-  let img = 'https://i.imgur.com/7tFu36i.jpeg';
+  let img = 'https://i.imgur.com/ZWKQufK.jpeg';
   let con = {
     key: {
       fromMe: false,
@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   };
 
   let messageContent = {
-    text: 'VORTEX-BOT-V1 IS RUNNING', // Text content in case a message body is needed
+    text: 'VORTEX-𝗠𝗗 𝗜𝗦 𝗥𝗨𝗡𝗡𝗜𝗡𝗚', // Text content in case a message body is needed
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {

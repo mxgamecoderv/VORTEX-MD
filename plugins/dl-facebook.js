@@ -18,7 +18,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     const tex = `
 ❥ HERE IS YOUR VIDEO \n\n
 ☆ *VIDEO TITLE:* ${result.title}\n\n
-❥ THANKS FOR CHOOSING VORTEX-BOT-V1`
+❥ THANKS FOR CHOOSING 𝚅𝙾𝚁𝚃𝙴𝚇-MD`
 
     const response = await fetch(result.videoUrl)
     const arrayBuffer = await response.arrayBuffer()

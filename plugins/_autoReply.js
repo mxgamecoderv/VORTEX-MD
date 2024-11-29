@@ -15,7 +15,7 @@ export async function all(m) {
       { quoted: m }*/
     ) {
     this.sendButton(m.chat, `*Invite bot to a group*      
-    Hallo @${m.sender.split('@')[0]} 
+    Hello @${m.sender.split('@')[0]} 
     you can rent the bot to join a group or contact owner 
     more info click on the button
   `.trim(), igfg, null, [['GROUP HELP', '.grp']] , m, { mentions: [m.sender] })

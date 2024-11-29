@@ -45,7 +45,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
         }
 
         const title = response.data.title || 'video';
-        const caption = `𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © VORTEX-BOT-V1`;
+        const caption = `𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © VORTEX-MD`;
 
         // Fetch the video file with retry
         const mediaResponse = await fetchWithRetry(videoUrl, {

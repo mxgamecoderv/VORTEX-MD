@@ -13,7 +13,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         m.react('🎧');
 
         let play = `
-≡ *VORTEX-BOT-V1 MUSIC*
+≡ *VORTEX-MD MUSIC*
 ┌──────────────
 ▢ 📆 *Uploaded:* ${ago}
 ▢ ⌚ *Duration:* ${timestamp}
