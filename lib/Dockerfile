@@ -1,6 +1,6 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/mxgamecoder/VORTEX-BOT-V1 /root/global
+RUN git clone https://github.com/mxgamecoder/VORTEX-MD /root/global
 
 WORKDIR /root/global/
 
