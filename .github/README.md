@@ -57,7 +57,7 @@ To set up the VORTEX-MD quickly, follow our detailed tutorial on YouTube:
 
 ### SERVER 2
  
-<a href="https://replit.com/@mxgamecoder/VORTEX-MD-PAIR-CODE"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
+<a href="https://vortex-md-pair-code-48fw.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
