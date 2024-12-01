@@ -1,5 +1,5 @@
 # **VORTEX-MD**
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/wfuEyoo.jpeg'/></a>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-MD+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;Chatgpt+Assistant)](https://git.io/typing-svg)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
