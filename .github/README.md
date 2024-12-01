@@ -1,10 +1,10 @@
 # **VORTEX-MD**
-<a><img src='https://i.imgur.com/wfuEyoo.jpeg'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-MD+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+November+26+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;Chatgpt+Assistant)](https://git.io/typing-svg)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <p align="center">
-<img src="https://files.catbox.moe/msimwy.jpeg"/> 
+<img src="https://i.imgur.com/wfuEyoo.jpeg"/> 
 <p align="center"><img src="https://profile-counter.glitch.me/{mxgamecoder}/count.svg" alt="mxgamecoder:: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/mxgamecoder/followers"><img title="Followers" src="https://img.shields.io/github/followers/mxgamecoder?color=red&style=flat-square"></a>
