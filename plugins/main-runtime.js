@@ -73,5 +73,12 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return ['*｢💘 VORTEX-MD UP TIME, AM TIRED OF YOU.💘」*\n\n ', d, ' *Days ☀️*\n ', h, ' *Hours 🕐*\n ', m, ' *Minute ⏰*\n ', s, ' *Second ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
-	    }
+  
+  return ['*🎄❄️ CHRISTMAS UP TIME 💫, I HOPE YOU’RE HAVING A JOYOUS TIME 🎅🏻* \n\n ', 
+          d, ' *Days 🎁*\n ', 
+          h, ' *Hours 🕰️*\n ', 
+          m, ' *Minutes ⏳*\n ', 
+          s, ' *Seconds 🎉* ']
+         .map(v => v.toString().padStart(2, 0))
+         .join('')
+}

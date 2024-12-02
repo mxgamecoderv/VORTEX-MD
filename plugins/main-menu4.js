@@ -44,34 +44,33 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0]
   let str = `
-🥱 *_Wake up ${name}, ${greeting}! We're going on an adventure!_* 😩
+😡🎄 *Wake up ${name}, ${greeting}! It’s Christmas time, and we’re going on an epic fail of an adventure!* 🎅🎄
 
-📜 *_Quote of the day: ${quote}_* 📜
+📜 *_Christmas Quote of the day: ${quote}_* 📜
 
-┏━💼 _User Info:_ 💼━┓
-┃ 👾  *User:* ${taguser} 
-┃ 🎩  *Name:* ${name} 
-┃ 🦸  *Master:* ${author} 
-┃ 💎  *Diamonds:* ${diamond} 
-┃ 🏆  *Rank:* ${role}
-┃ 🎮  *XP:* ${exp} 
-┗━━━━━━━━━━━┛
+🎄✨✨✨✨✨✨✨✨✨🎄  
+🎅 🪪 *Name:* ${name}  
+🎁 🏆 *Rank:* ${role}  
+❄️ 🎮 *XP:* ${exp}  
+═════════════════════  
 
-┏━━⏰ _Today's Sauce!_ ⏰━┓
-┃ 📆  *Date:* ${date} 
-┃ ⏲️  *Time:* ${wib} 
-┗━━━━━━━━━━━━━┛
+🎄✨✨✨✨✨✨✨✨✨🎄  
+    📅 **DATE & TIME** ⏰  
+🎄✨✨✨✨✨✨✨✨✨🎄  
+⛄ 📆 *Date:* ${date}  
+🎀 ⏰ *Time:* ${wib}  
+═════════════════════  
 
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Platform:* Linux 
-┃ 📣  *Prefix:* ${usedPrefix} 
-┃ 🕓  *Uptime:* ${uptime}
-┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
-┃ 📚  *Total Users:* ${totaluser} 
-┗━━━━━━━━━━━━━┛
+🎄✨✨✨✨✨✨✨✨✨🎄  
+    🤖 **BOT STATUS** ⚙️  
+🎄✨✨✨✨✨✨✨✨✨🎄  
+🛷 🎩 *Bot Name:* ${botname}  
+🎄 📣 *Prefix:* ${usedPrefix}  
+🔔 🕓 *Uptime:* ${uptime}  
+═════════════════════  
 
-💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book and am sorry for being rude, am created by a useless developer!_* 💡
+💡 *Reminder, you absolute mess, when you screw up, use ${usedPrefix}list or ${usedPrefix}help—it’s like the bot version of Santa’s naughty list! And yeah, I’m sorry, but blame the useless developer who made me, not me!* 💡
+
 `
 
   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)

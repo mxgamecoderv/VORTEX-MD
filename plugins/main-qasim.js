@@ -15,7 +15,7 @@ https://t.me/mxgamecoder
 ≡ Disabled links? Chat Directly! 
 
 ▢ Group WhatsApp 
- https://chat.whatsapp.com/G6ofX7mzrDy8m92NMb4FJm
+https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
 ─────────────
 ▢ *Owner instagram*
  https://instagram.com/mxgamecoder

@@ -54,23 +54,24 @@ let handler = async (m, { conn, usedPrefix }) => {
                                         "title": "HERE IS BUTTONS MENU AND MAKE SURE YOU DON'T FORGET THEN FOOL SO THAT YOU WON'T DISTURB ME  🥱",
                                         "highlight_label": "𝚅𝙾𝚁𝚃𝙴𝚇",
                                         "rows": [
-                                            { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
-                                            { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
-                                            { "header": "", "title": "🎉 AI Menu", "description": "Your Personal Artificial Intelligence Copilots", "id": `${usedPrefix}aimenu` },
-                                            { "header": "", "title": "🎧 Audio Menu", "description": "Tune The Mp3/Audio As You Wish", "id": `${usedPrefix}aeditor` },
-                                            { "header": "", "title": "🍫 Anime Menu", "description": "Animated Images, Stickers and Videos", "id": `${usedPrefix}animemenu` },
-                                            { "header": "", "title": "🪁 Anime Info", "description": "Full Information About Animes Like IMDB", "id": `${usedPrefix}infoanime` },
-                                            { "header": "", "title": "🛫 Group Menu", "description": "Group shenanigans central!", "id": `${usedPrefix}groupmenu` },
-                                            { "header": "", "title": "🗂️ Download Menu", "description": "'DL' stands for 'Delicious Loot'.", "id": `${usedPrefix}dlmenu` },
-                                            { "header": "", "title": "🎭 Fun Menu", "description": "The bot's party hat. Games, jokes and instant ROFLs.", "id": `${usedPrefix}funmenu` },
-                                            { "header": "", "title": "💵 Economy Menu", "description": "Your personal vault of virtual economy.", "id": `${usedPrefix}economymenu` },
-                                            { "header": "", "title": "🎮 Game Menu", "description": "Enter the gaming arena.", "id": `${usedPrefix}gamemenu` },
-                                            { "header": "", "title": "🫐 Sticker Menu", "description": "A rainbow of stickers.", "id": `${usedPrefix}stickermenu` },
-                                            { "header": "", "title": "🖍️ Fancy Text", "description": "Fancy Text Generator.", "id": `${usedPrefix}fancy` },
-                                            { "header": "", "title": "🎊 Tool Menu", "description": "Your handy-dandy toolkit.", "id": `${usedPrefix}toolmenu` },
-                                            { "header": "", "title": "🏵️ Logo Menu", "description": "Create a logo that screams You.", "id": `${usedPrefix}logomenu` },
-                                            { "header": "", "title": "🖌️ Fancy Text2", "description": "From Text To Fancy Text As jpg", "id": `${usedPrefix}fancy2` },
-                                            { "header": "", "title": "🌄 NSFW Menu", "description": "The After Dark menu.", "id": `${usedPrefix}nsfwmenu` }
+                                            { "header": "", "title": "🎁 *Bot Menu* - *Bet you still need help, don’t you, idiot?* ", "description": "The Bot's secret control panel. But don't expect to understand it, you clueless mess. 🎅", "id": `${usedPrefix}botmenu` },
+{ "header": "", "title": "🖲️ *Owner Menu* - *Yeah, it’s for you, Boss... like you can handle it* 🎄", "description": "For you, the so-called Boss. Not like you can do anything with it, right? 🎁", "id": `${usedPrefix}ownermenu` },
+{ "header": "", "title": "🎉 *AI Menu* - *Because you need machines to do everything for you* 🎄", "description": "Your Personal AI Copilots, because we all know you can't do sh*t by yourself. 🎅", "id": `${usedPrefix}aimenu` },
+{ "header": "", "title": "🎧 *Audio Menu* - *Fix your trash audio, loser* 🎁", "description": "Tune the MP3/Audio however you wish, though no amount of magic will save your taste in music. 🎄", "id": `${usedPrefix}aeditor` },
+{ "header": "", "title": "🍫 *Anime Menu* - *For when you need to escape your miserable life* 🎅", "description": "Animated Images, Stickers, and Videos. Not like you'll ever get a life, though. 🎄", "id": `${usedPrefix}animemenu` },
+{ "header": "", "title": "🪁 *Anime Info* - *Like IMDB, but you’ll never understand it* 🎁", "description": "Full Information About Animes, though it's probably too complicated for your brain. 🎄", "id": `${usedPrefix}infoanime` },
+{ "header": "", "title": "🛫 *Group Menu* - *For when you want to mess up a group chat* 🎄", "description": "Group shenanigans central, but I know you'll screw it up. 🎁", "id": `${usedPrefix}groupmenu` },
+{ "header": "", "title": "🗂️ *Download Menu* - *You won’t use this, idiot* 🎅", "description": "'DL' stands for 'Delicious Loot', though you’ll never find anything worthwhile. 🎄", "id": `${usedPrefix}dlmenu` },
+{ "header": "", "title": "🎭 *Fun Menu* - *Good luck having fun, loser* 🎁", "description": "Games, jokes, and instant ROFLs... but we all know you'll ruin it. 🎄", "id": `${usedPrefix}funmenu` },
+{ "header": "", "title": "💵 *Economy Menu* - *Your virtual vault of failure* 🎅", "description": "Your personal vault of virtual economy, though you'll never be rich. 🎁", "id": `${usedPrefix}economymenu` },
+{ "header": "", "title": "🎮 *Game Menu* - *You’re gonna lose, just admit it* 🎄", "description": "Enter the gaming arena, but we both know you’re gonna fail. 🎅", "id": `${usedPrefix}gamemenu` },
+{ "header": "", "title": "🫐 *Sticker Menu* - *Stickers for your sad life* 🎁", "description": "A rainbow of stickers for when your life is as dull as a Christmas tree in January. 🎄", "id": `${usedPrefix}stickermenu` },
+{ "header": "", "title": "🖍️ *Fancy Text* - *You can’t even do basic text, huh?* 🎅", "description": "Fancy Text Generator, though you’ll still mess it up. 🎄", "id": `${usedPrefix}fancy` },
+{ "header": "", "title": "🎊 *Tool Menu* - *For all your failed projects* 🎁", "description": "Your handy-dandy toolkit, though I know you'll break it. 🎄", "id": `${usedPrefix}toolmenu` },
+{ "header": "", "title": "🏵️ *Logo Menu* - *Create a logo that screams failure* 🎄", "description": "Create a logo that screams ‘lost and confused’, just like you. 🎁", "id": `${usedPrefix}logomenu` },
+{ "header": "", "title": "🖌️ *Fancy Text2* - *You’ll mess this up too, right?* 🎅", "description": "From Text To Fancy Text As jpg, but we all know you won’t get it right. 🎄", "id": `${usedPrefix}fancy2` },
+{ "header": "", "title": "🌄 *NSFW Menu* - *For when your bad decisions get worse* 🎁", "description": "The After Dark menu. Bet you can’t resist. 🎅", "id": `${usedPrefix}nsfwmenu` }
+
                                         ]
                                     }]
                                 })
@@ -128,7 +129,7 @@ function ucapan() {
         res = "Good Morning 🥱";
     }
     if (time >= 10) {
-        res = "Good Afternoon 🫠";
+        res = "Good Afternoon 🙂";
     }
     if (time >= 15) {
         res = "Good Afternoon 🌇";

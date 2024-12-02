@@ -13,17 +13,18 @@ let handler = async function (m, { conn, __dirname }) {
     if (response.status === 200) {
       const repoData = response.data
 
-      // Format the repository information with emojis
+      // Format the repository information with festive emojis
       const formattedInfo = `
-📂 Repository Name: ${repoData.name}
-📝 Description: ${repoData.description}
-👤 Owner: ${repoData.owner.login}
-⭐ Stars: ${repoData.stargazers_count}
-🍴 Forks: ${repoData.forks_count}
-🌐 URL: ${repoData.html_url}
+🎄 *Merry Christmas!* 🎄
+📂 *Repository Name:* ${repoData.name}
+🎅 *Description:* ${repoData.description || 'No description provided'}
+👤 *Owner:* ${repoData.owner.login}
+⭐ *Stars:* ${repoData.stargazers_count}
+🍴 *Forks:* ${repoData.forks_count}
+🌐 *URL:* ${repoData.html_url}
       `.trim()
 
-      // Send the formatted information as a message
+      // Send the formatted information as a festive message
       await conn.relayMessage(
         m.chat,
         {
@@ -47,11 +48,11 @@ let handler = async function (m, { conn, __dirname }) {
       )
     } else {
       // Handle the case where the API request fails
-      await conn.reply(m.chat, 'Unable to fetch repository information.', m)
+      await conn.reply(m.chat, '🎅 Unable to fetch repository information. 🎁', m)
     }
   } catch (error) {
     console.error(error)
-    await conn.reply(m.chat, 'An error occurred while fetching repository information.', m)
+    await conn.reply(m.chat, '🎄 An error occurred while fetching repository information. 🎅', m)
   }
 }
 

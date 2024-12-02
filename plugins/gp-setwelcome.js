@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, isROwner, isOwner }) => {
   if (text) {
     global.db.data.chats[m.chat].sWelcome = text;
-    m.reply(`✅ Welcome message updated successfully!`);
+    m.reply(`✅ Welcome message updated successfully, by our jobless admin!`);
   } else {
     throw `✳️ Please provide a new welcome message.`;
   }

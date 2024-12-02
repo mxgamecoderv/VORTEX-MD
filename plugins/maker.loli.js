@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
     global.API('https://some-random-api.com', '/canvas/misc/lolice', {
       avatar: await conn
         .profilePictureUrl(who, 'image')
-        .catch(_ => 'https://i.imgur.com/fm38vAD.jpeg'),
+        .catch(_ => 'https://i.imgur.com/vuAIWVz.jpeg'),
     }),
     'error.png',
     '*🚔🚨 𝐋𝐎𝐋𝐈𝐂𝐎𝐍𝐒 like you only belong in jail 🚨🚔*',

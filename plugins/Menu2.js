@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './assets/A.jpg'
+let pp = './assets/A.mp4'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -37,63 +37,143 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-⚠️ *_Rise up bastard ${name}, ${greeting}! We're going on an adventure!_* ⚠️
+🙄🎄 *Hey loser, ${name} ${greeting}! We're going on a trip, don't get too excited, it's not like you'll be useful.* 🎅
 
-📋 *_Quote of the day: ${quote}_* 📋
+📋✨ *_Quote of the day: ${quote}_* ✨
 
 『 *VORTEX-MD*』
 
-☆┏━『 *User Info* 』 
-☆┃ 🪪  *Name:* ${name}  
-☆┃ 🏆  *Rank:* ${role}
-☆┃ 🎮  *XP:* ${exp} 
-☆┗━━━━━━━━━━⦿
-☆┏━━ 『 *Date/Time* 』
-☆┃ 📆   ${date} 
-☆┃ ⏰ *Time:*  ${wib} 
-☆┗━━━━━━━━━━⦿
-☆┏━━『 *Bot Status* 』
-☆┃  🎩 *Bot Name:* ${botname}
-☆┃ 📣  *Prefix:* ${usedPrefix} 
-☆┃ 🕓  *Uptime:* ${uptime}
-☆┗━━━━━━━━━━⦿
+🎄✨✨✨✨✨✨✨✨✨🎄  
+    🌟 **USER INFO** 🌟  
+🎄✨✨✨✨✨✨✨✨✨🎄  
 
-◈┏━⟪ *MENU* ⟫━━⦿
-◈┃• groupmenu
-◈┃• animemenu
-◈┃• autoreact
-◈┃• infoanime
-◈┃• makermenu
-◈┃• ownermenu
-◈┃• stickermenu
-◈┃• toolsmenu
-◈┃• gamesmenu
-◈┃• logomenu
-◈┃• listplugin
-◈┃• economy
-◈┃• reactions
-◈┃• funmenu
-◈┃• nsfwmenu
-◈┃• randompic
-◈┃• randomvid
-◈┃• setprivacy
-◈┃• botmenu
-◈┃• listmenu
-◈┃• dlmenu
-◈┃• enable
-◈┃• aimenu
-◈┃• aeditor
-◈┃• imagen
-◈┃• menu
-◈┃• menu3
-◈┃• menu4
-◈┃• fancy
-◈┃• fancy2
-◈┗━♪♪━★━☆━⦿
+🎅 🪪 *Name:* ${name}  
+🎁 🏆 *Rank:* ${role}  
+❄️ 🎮 *XP:* ${exp}  
+═════════════════════  
+
+🎄✨✨✨✨✨✨✨✨✨🎄  
+    📅 **DATE & TIME** ⏰  
+🎄✨✨✨✨✨✨✨✨✨🎄  
+
+⛄ 📆 *Date:* ${date}  
+🎀 ⏰ *Time:* ${wib}  
+═════════════════════  
+
+🎄✨✨✨✨✨✨✨✨✨🎄  
+    🤖 **BOT STATUS** ⚙️  
+🎄✨✨✨✨✨✨✨✨✨🎄  
+
+🛷 🎩 *Bot Name:* ${botname}  
+🎄 📣 *Prefix:* ${usedPrefix}  
+🔔 🕓 *Uptime:* ${uptime}  
+═════════════════════  
+
+🎅🎁 **Happy Christmas, you miserable excuse for a person!** 🎄❄️  
+"Let this season wrap you in *utter disappointment*,  
+fill your heart with *regret*, and gift you endless *failures*!" 🌟✨  
+═════════════════════  
+
+
+🎄◈┏━⟪ *HO HO HO, MENU TIME* ⟫━━⦿🎅
+
+🎄◈┃• *groupmenu*  
+   Probably the only group where you’re not completely useless, huh?  
+
+🎁◈┃• *animemenu*  
+   You need anime to escape the mess of your life, don’t you?  
+
+🎄◈┃• *autoreact*  
+   Like you’re capable of reacting to anything on your own, loser  
+
+🎅◈┃• *infoanime*  
+   You’re probably too dumb to get this info, but let’s try anyway  
+
+🎁◈┃• *makermenu*  
+   Yeah, like you’re ever going to create something *useful*  
+
+🎄◈┃• *ownermenu*  
+   Because you can’t even manage your own crap, right?  
+
+🎅◈┃• *stickermenu*  
+   For when your brain is as empty as a Christmas tree after the holidays, dumbass  
+
+🎁◈┃• *toolsmenu*  
+   Tools to fix your mess... though it’ll probably stay broken, just like you  
+
+🎄◈┃• *gamesmenu*  
+   For when you’re so bored, even a Christmas miracle won’t save you  
+
+🎅◈┃• *logomenu*  
+   You won’t even know how to use it, just admit it, idiot  
+
+🎄◈┃• *listplugin*  
+   You’ll never get this, so just give up already  
+
+🎁◈┃• *economy*  
+   Nice try, but you’re never gonna be *rich*—not in this lifetime  
+
+🎄◈┃• *reactions*  
+   As if you know how to react to anything *worthwhile*, loser  
+
+🎅◈┃• *funmenu*  
+   Good luck having fun without me, you're hopeless  
+
+🎁◈┃• *nsfwmenu*  
+   We all know you’ll click this, perv—Christmas won’t save you  
+
+🎄◈┃• *randompic*  
+   For when you need distractions to forget how *miserable* your life is  
+
+🎅◈┃• *randomvid*  
+   Bet you won’t even finish this, you’ll be too *bored*  
+
+🎄◈┃• *setprivacy*  
+   Like you even care about privacy... you’ve got *nothing* to hide, idiot  
+
+🎁◈┃• *botmenu*  
+   I’m the bot you didn’t want, but guess what? Too bad!  
+
+🎄◈┃• *listmenu*  
+   Too lazy to figure things out? Here’s a list, loser  
+
+🎅◈┃• *dlmenu*  
+   Downloading more stuff you’ll never use… typical idiot  
+
+🎁◈┃• *enable*  
+   Go ahead, enable whatever—won’t fix your stupidity  
+
+🎄◈┃• *aimenu*  
+   Hoping for *direction*? You’re hopeless without me  
+
+🎅◈┃• *aeditor*  
+   You need *help* editing, huh? It’s too hard for you, isn’t it?  
+
+🎁◈┃• *imagen*  
+   Yeah, like your imagination is even worth anything  
+
+🎄◈┃• *menu*  
+   Enjoy it, though you’ll probably mess it up anyway, idiot  
+
+🎁◈┃• *menu3*  
+   I’m just giving you more to screw up, dumbass  
+
+🎄◈┃• *menu4*  
+   More options for you to continue making bad decisions  
+
+🎅◈┃• *fancy*  
+   For the fancy person who can’t even keep their life together, loser  
+
+🎁◈┃• *fancy2*  
+   Here’s *more*, because clearly, you need it  
+
+🎄◈┗━♪♪━★━☆━⦿🎅
 
 © MX-GΔMΞCØDΞR
 
-> 💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book!_* 💡
+> 🎄💥 *_Remember, when you mess up again, use ${usedPrefix}list or ${usedPrefix}help, because clearly, you're too clueless to figure it out on your own, you merry mess._* 💥🎄 
+
+
 `
 
     

@@ -2,12 +2,12 @@ import { exec } from 'child_process'
 import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
-  let thumbnail = 'https://i.imgur.com/fm38vAD.jpeg'
+  let thumbnail = 'https://i.imgur.com/vuAIWVz.jpeg'
   let fgg = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: ` MX-GMCDR`,
+        displayName: `MX-GMCDR`,
         vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'VORTEX-MD'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
@@ -26,7 +26,7 @@ let handler = async (m, { conn }) => {
           key: pingMsg.key,
           type: 14,
           editedMessage: {
-            conversation: `*  running ping:* *${latency} ms*`,
+            conversation: `*VORTEX-MD RUNNING PING:* *${latency} ms*`,
           },
         },
       },
