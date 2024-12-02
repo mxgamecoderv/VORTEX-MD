@@ -558,8 +558,8 @@ async function connectionUpdate(update) {
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `*VORTEX-MD Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY SUBSCRIBE*
-*youtube.com/@mxgamecoder*`
+    const msg = `🎄🎅 *VORTEX-MD is up, you lazy elf!* 🎄🎅 \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT THIS BOT OR SANTA'S CANCELING YOUR GIFTS:*  
+*youtube.com/@mxgamecoder*`  
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
@@ -604,18 +604,19 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = ` Hello @user!\n\n🎉 *WELCOME* to the group @group!\n\n📜 Please read the *DESCRIPTION* to avoid problem @desc.`
-  conn.bye = `👋GOODBYE @user \n\nSee you guys later!`
-  conn.spromote = `*@user* has been promoted to an admin because he is a chosen fool!`
-  conn.sdemote = `*@user* is no longer an admin because he has not sense.`
-  conn.sDesc = `The group description has been updated to:\n@desc`
-  conn.sSubject = `The group title has been changed to:\n@group`
-  conn.sIcon = `The group icon has been updated idiots!`
-  conn.sRevoke = ` The group link has been changed to:\n@revoke`
-  conn.sAnnounceOn = `The group is now *CLOSED*!\nOnly admins can send messages because you guys does not have sense.`
-  conn.sAnnounceOff = `The group is now *OPEN*!\nAll participants can send messages fools.`
-  conn.sRestrictOn = `Edit Group Info has been restricted to admins only idiots!`
-  conn.sRestrictOff = `Edit Group Info is now available to all participants guys!`
+conn.welcome = `🎄🎅 Hello @user! 🎅🎄\n\n🎉 *WELCOME* to the group @group!\n\n📜 Read the *DESCRIPTION* to avoid any stupid drama, @desc.`  
+conn.bye = `👋GOODBYE @user 🎄\n\nFinally, some peace and quiet!`  
+conn.spromote = `🎅 *@user* is now an admin. Hope they don't mess it up like the others!`  
+conn.sdemote = `🎄 *@user* has been stripped of admin powers. Guess being clueless doesn't pay off!`  
+conn.sDesc = `🎁 The group description has been updated to:\n@desc 🎁`  
+conn.sSubject = `🎄🎉 The group title has been updated to:\n@group 🎄🎉`  
+conn.sIcon = `🎅 The group icon has been updated. Bet it’s still ugly, idiots! 🎄`  
+conn.sRevoke = `🎄 The group link has been changed to:\n@revoke 🎅`  
+conn.sAnnounceOn = `🎅 The group is now *CLOSED*! 🎄\nOnly admins can send messages because the rest of you are too annoying.`  
+conn.sAnnounceOff = `🎁 The group is now *OPEN*! 🎄\nTime for all the fools to start talking again.`  
+conn.sRestrictOn = `🎅 Editing Group Info is now restricted to admins only, because you clowns can't handle it! 🎄`  
+conn.sRestrictOff = `🎁 Editing Group Info is now available to everyone. Try not to screw it up, fools! 🎄`  
+
 
   conn.handler = handler.handler.bind(global.conn)
   conn.pollUpdate = handler.pollUpdate.bind(global.conn)

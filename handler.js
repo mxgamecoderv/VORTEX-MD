@@ -855,44 +855,45 @@ export async function presenceUpdate(presenceUpdate) {
 /**
 dfail
  */
-global.dfail = (type, m, conn) => {
-  const userTag = `👋 Hi *@${m.sender.split('@')[0]}*, `
-  const emoji = {
-    general: '⚙️',
-    owner: '👑',
-    moderator: '🛡️',
-    premium: '💎',
-    group: '👥',
-    private: '📱',
-    admin: '👤',
-    botAdmin: '🤖',
-    unreg: '🔒',
-    nsfw: '🔞',
-    rpg: '🎮',
-    restrict: '⛔',
-  }
+global.dfail = (type, m, conn) => {  
+  const userTag = `🎅 Ho ho ho, *@${m.sender.split('@')[0]}*! `  
+  const emoji = {  
+    general: '🎄',  
+    owner: '🎅',  
+    moderator: '🛡️',  
+    premium: '💎',  
+    group: '🎁',  
+    private: '📱',  
+    admin: '👤',  
+    botAdmin: '🤖',  
+    unreg: '🔒',  
+    nsfw: '🔞',  
+    rpg: '🎮',  
+    restrict: '⛔',  
+  }  
 
-  const msg = {
-    owner: `*${emoji.owner} Owner's Query*\n
-    ${userTag} Idiot don't use my command the bot is not for you thief, this command can only be used by the *Bot Owner*!`,
-    moderator: `*${emoji.moderator} Moderator's Query*\n
-    ${userTag} This command can only be used by *Moderators fool*!`,
-    premium: `*${emoji.premium} Premium Query*\n
-    ${userTag} This command is only for *Premium Members idiot*!`,
-    group: `*${emoji.group} Group Query*\n
-    ${userTag} This command can only be used in *Group Chats*!`,
-    private: `*${emoji.private} Private Query*\n
-    ${userTag} This command can only be used in *Private Chats 😏*!`,
-    admin: `*${emoji.admin} Admin's Query*\n
-    ${userTag} This command is only for *Group Admins, hey stop it 🛑*!`,
-    botAdmin: `*${emoji.botAdmin} Bot Admin's Query*\n
-    ${userTag} Make the bot an *Admin* to use this command, but the creator is a fool he does not know how to make the bot admin 🤣!`,
-    unreg: `*${emoji.unreg} Registration Query*\n
-    ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*! and it not for small children, if your mom catch you am not responsible for it`,
-    nsfw: `*${emoji.nsfw} NSFW Query*\n
-    ${userTag} NSFW is not active. Please contact the Group admin to enable this feature, why are you stupid?!`,
-    restrict: `*${emoji.restrict} Inactive Feature Query*\n
-    ${userTag} This feature is *disabled, you are incompetent.*!`,
+  const msg = {  
+    owner: `*${emoji.owner} Owner's Command*\n  
+    ${userTag} Stop messing around, elf! This command is only for the *Bot Owner*!`,  
+    moderator: `*${emoji.moderator} Moderator's Command*\n  
+    ${userTag} Don't even try it, reindeer! This is only for *Moderators*!`,  
+    premium: `*${emoji.premium} Premium Command*\n  
+    ${userTag} No gifts for you, snowman! This is only for *Premium Members*!`,  
+    group: `*${emoji.group} Group Command*\n  
+    ${userTag} Stop acting like Santa! This command can only be used in *Group Chats*!`,  
+    private: `*${emoji.private} Private Command*\n  
+    ${userTag} This one’s for *Private Chats* only. Go away, Grinch!`,  
+    admin: `*${emoji.admin} Admin's Command*\n  
+    ${userTag} Get back in line, elf! Only *Group Admins* can use this!`,  
+    botAdmin: `*${emoji.botAdmin} Bot Admin's Command*\n  
+    ${userTag} Make the bot an *Admin*, or Santa’s sleigh won’t fly!`,  
+    unreg: `*${emoji.unreg} Registration Command*\n  
+    ${userTag} Sign up first, you lazy snowflake! Type:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*! And no, this isn’t for naughty kids!`,  
+    nsfw: `*${emoji.nsfw} NSFW Command*\n  
+    ${userTag} NSFW is turned off. Go talk to the Group Admin, you pervy reindeer!`,  
+    restrict: `*${emoji.restrict} Disabled Feature*\n  
+    ${userTag} This feature is *disabled*. Stop being a Christmas Scrooge!`,  
+
   }[type]
   if (msg) return m.reply(msg)
 }

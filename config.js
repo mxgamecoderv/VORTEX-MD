@@ -81,7 +81,7 @@ global.dygp = 'https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W'
 global.fgsc = 'https://github.com/mxgamecoder/VORTEX-MD'
 global.fgyt = 'https://youtube.com/@mxgamecoder'
 global.fgpyp = 'https://youtube.com/@mxgamecoder'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.fglog = 'https://i.imgur.com/YFtmhOw.jpeg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
