@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
   if (ownerIndex === -1) throw 'This person is not an owner dont you have sense!'
 
   const removedOwner = global.owner.splice(ownerIndex, 1)[0]
-  const caption = `@${removedOwner[0]} has been removed as an Owner.`
+  const caption = `@${removedOwner[0]} has been removed as an Owner because he is a fool.`
 
   await conn.reply(m.chat, caption, m, {
     mentions: conn.parseMention(caption),

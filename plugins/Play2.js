@@ -7,7 +7,7 @@ await m.react('⏳')
     try {
     let res = await search(args.join(" "))
     let img = await (await fetch(`${res[0].image}`)).buffer()
-    let txt = '`乂  Y O U T U B E  -  P L A Y`\n\n'
+    let txt = '`🎄  Y O U T U B E  -  P L A Y 🎄`\n\n'
        txt += `	✩   *Title* : ${res[0].title}\n`
        txt += `	✩   *Duration* : ${secondString(res[0].duration.seconds)}\n`
        txt += `	✩   *Published* : ${eYear(res[0].ago)}\n`

@@ -15,13 +15,13 @@ let handler = async (m, { conn, text }) => {
 
   if (!text && !m.quoted)
     return conn.reply(
-      `*❏USER RESET*\n\nTag the user, type the number or reply to the message of the user you want to RESET`,
+      `*❏USER RESET*\n\nTag the user, type the number or reply to the message of the user you want to RESET HIS BRAIN 🧠`,
       m
     )
   //let exists = await conn.isOnWhatsApp(number)
   // if (exists) return conn.reply(m.chat, `*The number is not registered in WhatsApp*`, m)
   if (isNaN(number))
-    return conn.reply(m.chat, `*❏ USER RESET*\n\nThe number you entered is invalid`, m)
+    return conn.reply(m.chat, `*❏ USER RESET*\n\nThe number you entered is invalid fool`, m)
   // if(number.length > 8) return conn.reply(m.chat, `*❏ USER RESET*\n\nThe number you entered is invalid!`, m)
   try {
     if (text) {

@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
     .map(v => v[0])
   let cc = conn.serializeM(text ? m : m.quoted ? await m.getQuotedObj() : false || m)
   let teks = text ? text : cc.text
-  conn.reply(m.chat, `✅ BROADCAST done *Total:* ${chats.length} chats`, m)
+  conn.reply(m.chat, `✅ BROADCAST done And Merry Christmas 🎄 *Total:* ${chats.length} chats`, m)
   for (let id of chats)
     await conn
       .copyNForward(
@@ -17,7 +17,7 @@ let handler = async (m, { conn, text }) => {
           cc,
           /bc|broadcast|tx/i.test(teks)
             ? teks
-            : `*BROADCAST ┃ OWNER*\n_____________________\n ${teks} `
+            : `*🎄BROADCAST ┃ OWNER 🎄*\n_____________________\n ${teks} `
         ),
         true
       )

@@ -6,7 +6,7 @@ let handler = async (m, { conn, isROwner, text }) => {
     .map(entry => entry[1])
   let anu = groups.map(v => v.id)
   var pesan = m.quoted && m.quoted.text ? m.quoted.text : text
-  if (!pesan) throw '*ENTER THE MESSAGE YOU WANT TO BROADCAST*'
+  if (!pesan) throw '*🎄ENTER THE MESSAGE YOU WANT TO BROADCAST MOTHER FUCKER🎄*'
   for (let i of anu) {
     await delay(500)
     conn

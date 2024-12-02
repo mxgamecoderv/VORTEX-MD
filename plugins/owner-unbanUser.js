@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
   else who = m.chat
   let user = global.db.data.users[who]
-  if (!who) throw `✳️ Tag or mention the user to unban`
+  if (!who) throw `🎄 Tag or mention the user to unban bastard 🎄`
   let users = global.db.data.users
   users[who].banned = false
   conn.reply(
@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 ✅ UNBAN
 
 ───────────
-@${who.split`@`[0]} has been unbanned`,
+@${who.split`@`[0]} has been unbanned 🎄`,
     m,
     { mentions: [who] }
   )
