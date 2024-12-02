@@ -20,16 +20,18 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     const { title, thumbnail, duration, views, uploaded, url } = result;
 
-    const captvid = `❀ Y O U T U B E ❀
-❏ Title: ${title}
-❐ Duration: ${duration}
-❑ Views: ${views}
-❒ Upload: ${uploaded}
-❒ Link: ${url}
+    const captvid = `
+┌──「 *🎄 TIKTOK STALKING 🎅* 
+▢ *🔖 Name:* ${res.name} (Nice name—assuming you didn’t steal it!)
+▢ *🔖 Username:* ${res.username} (Catchy, or trying too hard?)
+▢ *👥 Followers:* ${res.followers.toLocaleString()} (Quite the crowd, huh?)
+▢ *🫂 Following:* ${res.following.toLocaleString()} (Don’t forget quality over quantity!)
+▢ *📌 Bio:* ${res.desc || "No bio? Come on, even Santa has one!"}
 
-> CAN NOT DOWNLOAD FOR YOU WE ARE FIXING THE PROBLEM.
-> © MX-GΔMΞCØDΞR
-❍─━━━━⊱༻●༺⊰━━━━─❍`;
+▢ *🔗 Link:* https://tiktok.com/${res.username.replace(/^@/, '')}
+└────────────
+🎁 Thanks for using *VORTEX-MD*! Remember, TikTok fame doesn’t make you a star, but it’s fun to pretend. 😉
+`
 
     await conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid }, { quoted: m });
 

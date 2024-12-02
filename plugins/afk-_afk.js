@@ -22,7 +22,7 @@ ${user.afkReason ? ' \n▢ *Reason :* ' + user.afkReason : ''}
     let reason = user.afkReason || ''
     m.reply(
       `
-💤 The human u mentioned is afk 
+💤 The idiot u mentioned is afk 
 
 ${reason ? '▢ *Reason* : ' + reason : '▢ *Reason* : Without reason'}
 ▢ *AFK Duration :* ${(new Date() - afkTime).toTimeString()}

@@ -27,7 +27,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
         `*≡ Link Detected*
         
 We do not allow links from other groups. 
-I'm sorry *@${m.sender.split('@')[0]}*, you will be removed from the group.`,
+If tou send links again *@${m.sender.split('@')[0]}*, i promise you will be removed from the group idiot.`,
         null,
         { mentions: [m.sender] }
       );
@@ -36,7 +36,7 @@ I'm sorry *@${m.sender.split('@')[0]}*, you will be removed from the group.`,
       // Remove the user from the group
       await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
     } else {
-      console.log("Bot is not an admin and cannot remove members.");
+      console.log("Bot is not an admin and cannot remove members fool, must you embarrass me.");
     }
   }
   return true;

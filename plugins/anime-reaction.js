@@ -23,7 +23,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 conn.sendMessage(m.chat, { video: { url: url }, gifPlayback: true, caption: `(${name2}) ${command} ${name}`, mentions: [m.sender] }, { quoted: m })
 
 
-  m.react('☺️'); 
+  m.react('🙄'); 
 }
 
 handler.tags = ['reaction'];

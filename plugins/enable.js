@@ -219,31 +219,35 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     default:
       if (!/[01]/.test(command))
         return m.reply(`
-≡ List of options
 
-◈──『 *ADMIN*』
-⛊ welcome
-⛊ antilink
-⛊ nsfw
-⛊ autosticker
-⛊ detect
-⛊ jarvis
-⛊ antispam
-⛊ antitoxic
-╰──────────❍ 
-◈──『 *USERS*』
-⛊ autolevelup
-⛊ chatbot 
-╰──────────❍
-◈──『 *OWNER*』
-⛊ onlydm
-⛊ grouponly
-⛊ autotype
-⛊ autobio
-╰──────────❍
-*📌 Example :*
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
+✨🎄 LIST OF OPTIONS 🎄✨  
+
+★彡『 *🎅 ADMIN 🎅* 』彡★  
+⛊ *Welcome:* Greet your peasants.  
+⛊ *Antilink:* No spamming with lame links.  
+⛊ *NSFW:* You wish, naughty soul.  
+⛊ *Autosticker:* Turn your trash images into stickers.  
+⛊ *Detect:* Spy on new minions.  
+⛊ *Jarvis:* Enable bot's ego mode.  
+⛊ *Antispam:* Because no one likes a parrot.  
+⛊ *Antitoxic:* Clean up the toxic stench.  
+╰───────────────────★彡  
+
+★彡『 *🎄 USERS 🎄* 』彡★  
+⛊ *Autolevelup:* Level up, because you're still lame.  
+⛊ *Chatbot:* Let the bot listen to your nonsense.  
+╰───────────────────★彡  
+
+★彡『 *🎅 OWNER 🎅* 』彡★  
+⛊ *OnlyDM:* Don’t share the magic.  
+⛊ *GroupOnly:* Restrict the mayhem to groups.  
+⛊ *Autotype:* Show off like a legend.  
+⛊ *Autobio:* Keep it fresh, lazy!  
+╰───────────────────★彡  
+
+🎁 *📌 Example:*  
+Use *${usedPrefix}on* welcome to enable features.  
+Use *${usedPrefix}off* welcome to shut it down.  
 `)
       throw false
   }

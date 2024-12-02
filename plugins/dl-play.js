@@ -13,12 +13,14 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         m.react('🎧');
 
         let play = `
-≡ *VORTEX-MD MUSIC*
+≡ *🎄 VORTEX-MD MUSIC UNDER THE TREE 🎵*
 ┌──────────────
-▢ 📆 *Uploaded:* ${ago}
-▢ ⌚ *Duration:* ${timestamp}
-▢ 👀 *Views:* ${views.toLocaleString()}
-└──────────────`;
+▢ 📆 *Uploaded:* ${ago} (About time you found this!)
+▢ ⌚ *Duration:* ${timestamp} (Hopefully you’ve got the patience for it.)
+▢ 👀 *Views:* ${views.toLocaleString()} (Wow, this one’s popular. Let’s hope it’s not overrated.)
+└──────────────
+🎅 Thanks for vibing with VORTEX-MD. Now, go spread some holiday cheer—or not. 😉
+`
 
         await conn.sendButton(m.chat, play, null, null, [
             ['🎶 MP3', `${usedPrefix}yta ${url}`],

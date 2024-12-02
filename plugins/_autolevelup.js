@@ -11,7 +11,8 @@ export async function before(m, { conn }) {
     user.role = global.rpg.role(user.level).name
     if (before !== user.level) {
         m.reply(`
-*🎉 YOU LEVELED UP*
+*🎄🎅 *Oh wow, ${name}, YOU LEVELED UP! What a miracle, it’s like finding presents in the snow—impossible, but somehow you managed!* 🎁🎄
+*
 
  *${before}* ‣  *${user.level}*
  Range : *${user.role}*

@@ -57,7 +57,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let q = m.quoted ? m.quoted : m;
 				let mime = (q.msg || q).mimetype || q.mediaType || "";
 				if (!mime)
-					throw `Enter the command along with the image`;
+					throw `Enter the command along with the image guy 😡`;
 				if (!/image\/(jpe?g|png)/.test(mime))
 					throw ` ${mime} Doesnot Support`;
 				else conn.enhancer[m.sender] = true;
@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let q = m.quoted ? m.quoted : m;
 				let mime = (q.msg || q).mimetype || q.mediaType || "";
 				if (!mime)
-					throw `Enter the command along with image`;
+					throw `Enter the command along with image 😡`;
 				if (!/image\/(jpe?g|png)/.test(mime))
 					throw `${mime} is not editable`;
 				else conn.recolor[m.sender] = true;
@@ -115,7 +115,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let q = m.quoted ? m.quoted : m;
 				let mime = (q.msg || q).mimetype || q.mediaType || "";
 				if (!mime)
-					throw `Enter the Command Along with image`;
+					throw `Enter the Command Along with image 😡`;
 				if (!/image\/(jpe?g|png)/.test(mime))
 					throw `${mime} Doesnot Editable`;
 				else conn.hdr[m.sender] = true;

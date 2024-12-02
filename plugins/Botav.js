@@ -4,7 +4,11 @@ let handler = async (m, { conn }) => {
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
   let av = `./assets/${pickRandom(['qasim', 'global'])}.mp3`;
 
-  conn.sendButton(m.chat, `*HELLO FROM BOT MX-GΔMΞCØDΞR*\n        Morning or Evening\n\n @${m.sender.split('@')[0]}     \n\n*You called me what is your problem bro?* `.trim(), igfg, null, [['OWNER HELP', '.grp'], ['GET SC', '.repo']], m, { mentions: [m.sender] });
+  conn.sendButton(m.chat, `🎄 *HO HO HO, BOT MX-GΔMΞCØDΞR HERE!* 🎅🏼\n  
+   Good Morning, Evening, or Whatever! \n\n  
+@${m.sender.split('@')[0]} \n\n 
+*You summoned me, huh? What’s your problem now, Grinch?*`
+.trim(), igfg, null, [['OWNER HELP', '.grp'], ['GET SC', '.repo']], m, { mentions: [m.sender] });
   conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true });
 }
 

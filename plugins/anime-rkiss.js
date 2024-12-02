@@ -18,7 +18,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
    let { url } = jkis
    let stiker = await sticker(null, url, `(${name2}) ${mssg.kismsg}`, `${name}`)
    conn.sendFile(m.chat, stiker, null, { asSticker: true }, m)
-   m.react('😚') 
+   m.react('🙂') 
    
 }
 

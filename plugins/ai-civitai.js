@@ -8,7 +8,7 @@ let handler = async (m, {
 text,
     args
 }) => {
-if (!Number(text)) return m.reply(`Enter the command along with choosen number 🥺`)
+if (!Number(text)) return m.reply(`Enter the command along with choosen number idiot`)
         await m.reply(wait)
         let res = await fetch('https://civitai.com/api/v1/models')
         let jso = await res.json()

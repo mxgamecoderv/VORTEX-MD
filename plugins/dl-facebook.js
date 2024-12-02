@@ -2,23 +2,23 @@ import fg from 'api-dylux'
 
 const handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
-    throw `✳️ Please send the link of a Facebook video\n\n📌 EXAMPLE :\n*${usedPrefix + command}* https://www.facebook.com/Ankursajiyaan/videos/981948876160874/?mibextid=rS40aB7S9Ucbxw6v`
-  }
+    throw `🎄 Ho Ho Hold up! Send me the damn Facebook video link, you impatient reindeer! 🎅🏼\n\n📌 EXAMPLE:\n*${usedPrefix + command}* https://www.facebook.com/Ankursajiyaan/videos/981948876160874/?mibextid=rS40aB7S9Ucbxw6v`
+}
 
-  const urlRegex =
-    /^(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.watch)\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i
-  if (!urlRegex.test(args[0])) {
-    throw '⚠️ PLEASE GIVE A VALID URL.'
-  }
+const urlRegex =
+  /^(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.watch)\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i
+if (!urlRegex.test(args[0])) {
+  throw '⚠️ Don’t play games with Santa. Give me a valid URL, now!'
+}
 
-  m.react(rwait)
+m.react(rwait)
 
-  try {
-    const result = await fg.fbdl(args[0])
-    const tex = `
-❥ HERE IS YOUR VIDEO \n\n
+try {
+  const result = await fg.fbdl(args[0])
+  const tex = `
+🎁 Here’s your Christmas gift! 🎥 \n\n
 ☆ *VIDEO TITLE:* ${result.title}\n\n
-❥ THANKS FOR CHOOSING 𝚅𝙾𝚁𝚃𝙴𝚇-MD`
+🎅 Thanks for using 𝚅𝙾𝚁𝚃𝙴𝚇-MD, you cheeky elf!`
 
     const response = await fetch(result.videoUrl)
     const arrayBuffer = await response.arrayBuffer()

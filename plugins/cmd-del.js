@@ -9,13 +9,13 @@ let handler = async (m, { text }) => {
   }
   
   // Ensure a hash is provided
-  if (!hash) throw `✳️ Please enter the command name.`;
+  if (!hash) throw `✳️ Please enter the command name motherfucker.`;
   
   let sticker = global.db.data.sticker;
 
   // Check if the command is locked
   if (sticker[hash] && sticker[hash].locked) {
-    throw `✳️ You cannot delete this command.`;
+    throw `✳️ You cannot delete this command loser.`;
   }
   
   // Delete the sticker command

@@ -15,15 +15,16 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     let res = await response.json();
 
     let te = `
-┌──「 *STALKING* 
+🎄──「 *STALKING UNDER THE MISTLETOE* 」──🎄
 ▢ *🔖Name:* ${res.name} 
 ▢ *🔖Username:* ${res.username}
-▢ *👥Followers:* ${res.followers}
-▢ *🫂Following:* ${res.following}
-▢ *📌Bio:* ${res.biography}
-▢ *🏝️Posts:* ${res.posts}
-▢ *🔗 Link:* https://instagram.com/${res.username.replace(/^@/, '')}
-└────────────`;
+▢ *👥Followers:* ${res.followers} (Why so popular? Chill, it’s just Instagram!)
+▢ *🫂Following:* ${res.following} (That’s a lot of people. Obsessed much?)
+▢ *📌Bio:* ${res.biography || "This person is so boring they didn’t even write a bio."}
+▢ *🏝️Posts:* ${res.posts} (Is this their life or a photoshoot?)
+▢ *🔗 Link:* https://instagram.com/${res.username.replace(/^@/, '')} (Don’t pretend you’re not clicking this.)
+🎅────────────
+`
 
     await conn.sendFile(m.chat, res.profile_picture, 'profile_picture.png', te, m);
 
