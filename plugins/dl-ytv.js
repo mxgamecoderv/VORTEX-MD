@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import pkg from 'nayan-media-downloader';
+import pkg from 'nayan-video-downloader';
 const { ytdown } = pkg;
 
 const fetchWithRetry = async (url, options, retries = 3) => {
@@ -45,7 +45,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
         }
 
         const title = response.data.title || 'video';
-        const caption = `𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © VORTEX-MD`;
+        const caption = `𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © 𝚅𝙾𝚁𝚃𝙴𝚇`;
 
         // Fetch the video file with retry
         const mediaResponse = await fetchWithRetry(videoUrl, {

@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import pkg from 'nayan-media-downloader';
+import pkg from 'nayan-video-downloader';
 const { instagram } = pkg;
 
 const fetchWithRetry = async (url, options, retries = 3) => {
@@ -68,7 +68,7 @@ const handler = async (m, { conn, args }) => {
     const fileName = mediaData.data.title ? `${mediaData.data.title}.jpg` : 'media.jpg';
     const mimetype = mediaData.data.video.length > 0 ? 'video/mp4' : 'image/jpeg';
 
-    await conn.sendFile(m.chat, mediaBuffer, fileName, '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚅𝙾𝚁𝚃𝙴𝚇*', m, false, { mimetype });
+    await conn.sendFile(m.chat, mediaBuffer, fileName, '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚅𝙾𝚁𝚃𝙴𝚇-𝙼𝙳*', m, false, { mimetype });
     m.react('✅');
   } catch (error) {
     console.error('Error downloading from Instagram:', error.message, error.stack);
